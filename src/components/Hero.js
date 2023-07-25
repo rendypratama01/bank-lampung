@@ -1,13 +1,16 @@
-import { Col, Container, Row, Button } from "react-bootstrap"
+import { Col, Container, Row, Button } from "react-bootstrap";
 
-function Hero () {
+function Hero() {
   return (
     <div className="hero">
       <Container className="text-black text-center d-flex justify-content-center align-items-center">
         <Row>
           <Col>
-            <div className="title">Selamat Datang Di Bank Lampung</div>
-            <div className="title">KCP Menggala</div>
+            <div className="title">
+              Selamat Datang Di Bank Lampung
+              <br />
+              KCP Menggala
+            </div>
             <div className="introButton mt-4 text-center">
               <Button variant="dark">Lihat Semua Product</Button>
             </div>
@@ -15,8 +18,7 @@ function Hero () {
         </Row>
       </Container>
     </div>
-  )
-  
+  );
 }
 
-export default Hero
+export default Hero;

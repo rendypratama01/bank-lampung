@@ -1,21 +1,26 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import './App.css';
-import HomePage from './Pages/HomePage';
-import AboutPage from './Pages/AboutPage';
-import ProductPage from './Pages/ProductPage';
-import '../src/assets/style/homePage.css';
+import HomePage from "./pages/HomePage";
+import AboutPage from "./pages/AboutPage";
+import ProductPage from "./pages/ProductPage";
+import "../src/styles/style.css";
+import { aboutPath, homePath, productPath, rootPath } from "./routes";
+import { Route, Routes } from "react-router-dom";
+import NavigationBar from "./components/NavigationBar";
 
-
-function App () {
+function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/home" element={<HomePage />} />
-        <Route path="/about" element={<AboutPage />} />
-        <Route path="/product" element={<ProductPage />} />
-      </Routes>
-    </Router>
-  )
+    <div className="app">
+      <main>
+        <NavigationBar />
+        <Routes>
+          {[rootPath, homePath].map((path, index) => (
+            <Route path={path} element={<HomePage />} key={index} />
+          ))}
+          <Route path={aboutPath} element={<AboutPage />} />
+          <Route path={productPath} element={<ProductPage />} />
+        </Routes>
+      </main>
+    </div>
+  );
 }
 
 export default App;
