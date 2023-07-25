@@ -103,7 +103,7 @@ svg {
     width: 50%;
   }
   
-  .about-container h4 {
+  .about-container_company-text h4 {
     font-size: 26px;
     margin-bottom: 30px;
     color: #28317e;
@@ -147,7 +147,7 @@ svg {
 /* =================================================== */
 /* =================================================== */
 
-  .product-container {
+  .layanan-container {
     margin: 100px 50px 50px 50px;
   }
   
@@ -211,3 +211,10 @@ svg {
   .value-text-top p {
     margin: 0; 
   }
+
+/* =================================================== */
+/* =================================================== */
+
+.contact-container {
+  margin: 100px 50px 50px 50px;
+}

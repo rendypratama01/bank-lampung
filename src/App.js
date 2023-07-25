@@ -1,8 +1,9 @@
 import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
-import ProductPage from "./pages/ProductPage";
+import LayananPage from "./pages/LayananPage";
+import ContactPage from "./pages/ContactPage";
 import "../src/styles/style.css";
-import { aboutPath, homePath, productPath, rootPath } from "./routes";
+import { aboutPath, homePath, layananPath,contactPath, rootPath } from "./routes";
 import { Route, Routes } from "react-router-dom";
 import NavigationBar from "./components/NavigationBar";
 
@@ -16,7 +17,8 @@ function App() {
             <Route path={path} element={<HomePage />} key={index} />
           ))}
           <Route path={aboutPath} element={<AboutPage />} />
-          <Route path={productPath} element={<ProductPage />} />
+          <Route path={layananPath} element={<LayananPage />} />
+          <Route path={contactPath} element={<ContactPage />} />
         </Routes>
       </main>
     </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../assets/logo.jpg";
+import { Tree, TreeNode } from 'react-organizational-chart';
 
 function About() {
   return (
@@ -140,6 +141,50 @@ function About() {
             </div>
           </div>
         </div>
+      </div>
+      <div className="about-container-structure">
+        <h3>Struktur Organisasi</h3>
+        <Tree
+          lineWidth={'2px'}
+          lineColor={'black'}
+          lineBorderRadius={'10px'}
+          label={<div>
+            <h4><u>Root</u></h4>
+            <p>asad</p>
+            </div>}>
+
+          <TreeNode label={<div>Child 1</div>}>
+            <TreeNode label={<div>Grand Child</div>}>
+              <TreeNode label={<div>Grand Child</div>} >
+                <TreeNode label={<div>Grand Child</div>} />
+              </TreeNode>
+            </TreeNode>
+          </TreeNode>
+          
+          <TreeNode label={<div>Child 1</div>} >
+            <TreeNode label={<div>Grand Child</div>}>
+                <TreeNode label={<div>Great Grand Child 1</div>} >
+                  <TreeNode label={<div>Great Grand Child 2</div>}>
+                    <TreeNode label={<div>Great Grand Child 2</div>}>
+                      <TreeNode label={<div>Great Grand Child 2</div>} />
+                    </TreeNode>
+                  </TreeNode>
+                </TreeNode>
+            </TreeNode>
+            
+            <TreeNode label={<div>Child 4</div>} >
+              <TreeNode label={<div>Great Grand Child 1</div>} >
+                <TreeNode label={<div>Great Grand Child 2</div>} />
+              </TreeNode>
+            </TreeNode>
+          </TreeNode>
+          
+            
+          
+
+          <TreeNode label={<div>Child 3</div>}>
+          </TreeNode>
+        </Tree>
       </div>
     </div>
   );

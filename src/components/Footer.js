@@ -1,5 +1,6 @@
 import React from 'react';
 import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
+import logo from "../assets/img/logo.png";
 
 export default function Footer() {
   return (
@@ -36,8 +37,12 @@ export default function Footer() {
           <MDBRow className='mt-3'>
             <MDBCol md='3' lg='4' xl='3' className='mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>
-                <MDBIcon color='secondary' icon='gem' className='me-3' />
-                Company name
+              <img
+                alt=""
+                src={logo}
+                height="50"
+                className="d-inline-block align-top"
+               />
               </h6>
               <p>
                 Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit
@@ -49,7 +54,7 @@ export default function Footer() {
               <h6 className='text-uppercase fw-bold mb-4'>Products</h6>
               <p>
                 <a href='#!' className='text-reset'>
-                  Angular
+                  Layanan
                 </a>
               </p>
               <p>
@@ -70,25 +75,25 @@ export default function Footer() {
             </MDBCol>
 
             <MDBCol md='3' lg='2' xl='2' className='mx-auto mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4'>Useful links</h6>
+              <h6 className='text-uppercase fw-bold mb-4'>About</h6>
               <p>
                 <a href='#!' className='text-reset'>
-                  Pricing
+                  Profil
                 </a>
               </p>
               <p>
                 <a href='#!' className='text-reset'>
-                  Settings
+                  Visi Misi
                 </a>
               </p>
               <p>
                 <a href='#!' className='text-reset'>
-                  Orders
+                  Nilai Perusahaan
                 </a>
               </p>
               <p>
                 <a href='#!' className='text-reset'>
-                  Help
+                  Struktur Organisasi
                 </a>
               </p>
             </MDBCol>
