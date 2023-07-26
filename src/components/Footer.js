@@ -109,7 +109,7 @@ export default function Footer() {
               <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
               <p>
                 <MDBIcon color="secondary" icon="home" className="me-2" />
-                New York, NY 10012, US
+                Menggala Sel., Menggala, Kabupaten Tulangbawang, Lampung
               </p>
               <p>
                 <MDBIcon color="secondary" icon="envelope" className="me-3" />
@@ -132,10 +132,9 @@ export default function Footer() {
         className="text-center p-4"
         style={{ backgroundColor: "rgba(0, 0, 0, 0.05)" }}
       >
-        © 2023 Copyright:
-        <a className="text-reset fw-bold" href="https://mdbootstrap.com/">
-          MDBootstrap.com
-        </a>
+        Bank Lampung © 2023 Copyright
+        <br />
+        All rights reserved
       </div>
     </MDBFooter>
   );
