@@ -7,7 +7,14 @@ import {
 } from "react-bootstrap";
 import logo from "../assets/img/logo.png";
 import { NavLink } from "react-router-dom";
-import { aboutPath, homePath, contactPath, layananPath, rootPath } from "../routes";
+import {
+  aboutPath,
+  homePath,
+  contactPath,
+  layananPath,
+  danaPath,
+  rootPath,
+} from "../routes";
 
 function NavigationBar() {
   return (
@@ -24,16 +31,11 @@ function NavigationBar() {
             />
           </NavbarBrand>
           <Nav>
-            <NavLink to={aboutPath}>About</NavLink>
-            <NavDropdown title="Product" id="basic-nav-dropdown">
-              <NavDropdown.Item href={layananPath} >Layanan</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
+            <NavLink to={homePath}>Beranda</NavLink>
+            <NavLink to={aboutPath}>Tentang</NavLink>
+            <NavDropdown title="Produk" id="basic-nav-dropdown">
+              <NavDropdown.Item href={layananPath}>Layanan</NavDropdown.Item>
+              <NavDropdown.Item href={danaPath}>Dana</NavDropdown.Item>
             </NavDropdown>
             <NavLink to={contactPath}>Contact</NavLink>
           </Nav>

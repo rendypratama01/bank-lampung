@@ -1,6 +1,6 @@
 import React from "react";
-import logo from "../assets/logo.jpg";
-import { Tree, TreeNode } from 'react-organizational-chart';
+import logo from "../assets/img/logo.png";
+import { Tree, TreeNode } from "react-organizational-chart";
 
 function About() {
   return (
@@ -145,45 +145,178 @@ function About() {
       <div className="about-container-structure">
         <h3>Struktur Organisasi</h3>
         <Tree
-          lineWidth={'2px'}
-          lineColor={'black'}
-          lineBorderRadius={'10px'}
-          label={<div>
-            <h4><u>Root</u></h4>
-            <p>asad</p>
-            </div>}>
-
-          <TreeNode label={<div>Child 1</div>}>
-            <TreeNode label={<div>Grand Child</div>}>
-              <TreeNode label={<div>Grand Child</div>} >
-                <TreeNode label={<div>Grand Child</div>} />
+          lineWidth={"2px"}
+          lineColor={"black"}
+          lineBorderRadius={"10px"}
+          label={
+            <div className="div-structure">
+              <h4>
+                <u>ALAMSYAH</u>
+              </h4>
+              <p>PIMPINAN KCP KELAS 1</p>
+            </div>
+          }
+        >
+          <TreeNode
+            label={
+              <div className="div-structure">
+                <h4>
+                  <u>ADHIS ARIFAN</u>
+                </h4>
+                <p>SPV. BISNIS</p>
+              </div>
+            }
+          >
+            <TreeNode
+              label={
+                <div className="div-structure">
+                  <h4>
+                    <u>RIYADHI ADYAN SYAH</u>
+                  </h4>
+                  <p>ACCOUNT OFFICER</p>
+                </div>
+              }
+            >
+              <TreeNode
+                label={
+                  <div className="div-structure">
+                    <h4>
+                      <u>M NAUFAL RAFIF</u>
+                    </h4>
+                    <p>ACCOUNT OFFICER</p>
+                  </div>
+                }
+              >
+                <TreeNode
+                  label={
+                    <div className="div-structure">
+                      <h4>
+                        <u>YUSI LORENCIA</u>
+                      </h4>
+                      <p>ACCOUNT OFFCER</p>
+                    </div>
+                  }
+                />
               </TreeNode>
             </TreeNode>
           </TreeNode>
-          
-          <TreeNode label={<div>Child 1</div>} >
-            <TreeNode label={<div>Grand Child</div>}>
-                <TreeNode label={<div>Great Grand Child 1</div>} >
-                  <TreeNode label={<div>Great Grand Child 2</div>}>
-                    <TreeNode label={<div>Great Grand Child 2</div>}>
-                      <TreeNode label={<div>Great Grand Child 2</div>} />
-                    </TreeNode>
+
+          <TreeNode
+            label={
+              <div className="div-structure">
+                <h4>
+                  <u>PERY FEBRIANSYAH</u>
+                </h4>
+                <p>SPV. OPERASIONAL</p>
+              </div>
+            }
+          >
+            <TreeNode
+              label={
+                <div className="div-structure">
+                  <h4>
+                    <u>DERA AYOURA</u>
+                  </h4>
+                  <p>STAFF JUNIOR ADM KREDIT</p>
+                </div>
+              }
+            >
+              <TreeNode
+                label={
+                  <div className="div-structure">
+                    <h4>
+                      <u>VINA HUSNA WAHAB P</u>
+                    </h4>
+                    <p>STAFF JUNIOR SDM DAN UMUM</p>
+                  </div>
+                }
+              >
+                <TreeNode
+                  label={
+                    <div className="div-structure">
+                      <h4>
+                        <u>REGINA GITA AYU</u>
+                      </h4>
+                      <p>CUSTOMER SERVICE</p>
+                    </div>
+                  }
+                >
+                  <TreeNode
+                    label={
+                      <div className="div-structure">
+                        <h4>
+                          <u>AHMAD YUSUF</u>
+                        </h4>
+                        <p>TELLER</p>
+                      </div>
+                    }
+                  >
+                    <TreeNode
+                      label={
+                        <div className="div-structure">
+                          <h4>
+                            <u>ASUNDER HARISON</u>
+                          </h4>
+                          <p>TELLER SAMSAT MENGGALA</p>
+                        </div>
+                      }
+                    />
                   </TreeNode>
                 </TreeNode>
+              </TreeNode>
             </TreeNode>
-            
-            <TreeNode label={<div>Child 4</div>} >
-              <TreeNode label={<div>Great Grand Child 1</div>} >
-                <TreeNode label={<div>Great Grand Child 2</div>} />
+
+            <TreeNode
+              label={
+                <div className="div-structure">
+                  <h4>
+                    <u>DRIVER</u>
+                  </h4>
+                  <p>BUDI SETIAWAN</p>
+                  <p>HIDAYATULLOH</p>
+                </div>
+              }
+            >
+              <TreeNode
+                label={
+                  <div className="div-structure">
+                    <h4>
+                      <u>SECURITY</u>
+                    </h4>
+                    <p>NURDIN EFFENDI</p>
+                    <p>HANDIKA SAPUTRA</p>
+                    <p>DONI</p>
+                    <p>SHANDRI DWIARTO</p>
+                    <p>CHANDRA</p>
+                  </div>
+                }
+              >
+                <TreeNode
+                  label={
+                    <div className="div-structure">
+                      <h4>
+                        <u>CLEANING SERVICE</u>
+                      </h4>
+                      <p>MIRHAN</p>
+                      <p>KURNIAWAN</p>
+                      <p>YOGI RINALDI</p>
+                    </div>
+                  }
+                />
               </TreeNode>
             </TreeNode>
           </TreeNode>
-          
-            
-          
 
-          <TreeNode label={<div>Child 3</div>}>
-          </TreeNode>
+          <TreeNode
+            label={
+              <div className="div-structure">
+                <h4>
+                  <u>TATOK ARISTO SETIAWAN</u>
+                </h4>
+                <p>QUALITY ASSURANCE</p>
+              </div>
+            }
+          ></TreeNode>
         </Tree>
       </div>
     </div>

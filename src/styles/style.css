@@ -5,6 +5,11 @@
 
 main {
     font-family: "Poppins", sans-serif;
+    color: #000;
+}
+
+p {
+  margin-bottom: 0 !important;
 }
 
 svg {
@@ -27,34 +32,40 @@ svg {
   }
   
 .title {
-    font-size: 3rem;
-    font-weight: 800;
-    line-height: 1;
-    letter-spacing: 4px;
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: 4px;
 }
 
 .navbar-nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
 }
 
 .navbar-nav a {
-    text-decoration: none;
-    color: #4F4F4F;
-    padding: 8px;
+  text-decoration: none;
+  color: #4F4F4F;
+  padding: 10px;
 }
 
 .navbar-nav a:active {
-    text-decoration: underline;
+  text-decoration: underline;
+}
+
+.navbar-nav a:hover {
+  text-decoration: underline;
 }
 
 #basic-nav-dropdown {
-    padding: 8px;
+  padding: 10px;
 }
 
 #basic-nav-dropdown:hover {
-    color: #4979cc;
+  color: #4979cc;
+  text-decoration: underline;
 }
 
 
@@ -95,7 +106,7 @@ svg {
     /* width: 400px; */
     width: 100%;
     display: flex;
-    padding: 0 30px;
+    padding: 0 50px;
     margin: auto;
   }
   
@@ -106,10 +117,15 @@ svg {
   .about-container_company-text h4 {
     font-size: 26px;
     margin-bottom: 30px;
-    color: #28317e;
   }
   
-  .about-container h5 {
+  .about-container_company-text h4,
+  .about-container_duty h4,
+  .about-container-value h4 {
+    color: #28317e;
+  }
+
+  .about-container_duty-vismis h5 {
     font-size: 18px;
     margin-bottom: 0px;
     color: #28317e;
@@ -121,7 +137,7 @@ svg {
   
   .about-container_duty {
     display: flex;
-    padding: 100px 20px;
+    padding: 60px 30px;
   }
   
   .about-container_duty-vismis {
@@ -134,15 +150,18 @@ svg {
     margin-bottom: 20px;
   }
   
-  /* .about-container_duty-mission li {
-    margin-left: 18px;
-  } */
-  
   .about-container_value {
     width: 50%;
     border-left: 1px solid rgba(0, 0, 0, 0.1);
     padding: 10px 30px;
   }
+
+  /* =================================================== */
+/* =================================================== */
+
+.dana-container {
+  margin: 100px 50px 50px 50px;
+}
 
 /* =================================================== */
 /* =================================================== */
@@ -169,12 +188,12 @@ svg {
     align-items: center;
     -webkit-box-pack: center;
     -webkit-box-align: center;
-    margin: auto 0;
+    margin: 25px 0;
   }
 
   .value-icon-top svg {
-    width: 22px !important;
-    height: 22px !important;
+    width: 20px !important;
+    height: 20px !important;
   }
 
   .value-icon-top svg path {
@@ -205,11 +224,30 @@ svg {
   .value-text-top {
     width: 100%;
     padding: 10px;
-
   }
 
   .value-text-top p {
-    margin: 0; 
+    margin: 0;
+    line-height: 15px;
+  }
+
+  .value-text-top h5 {
+    padding-bottom: 2px;
+    color: #28317e;
+  }
+
+  .about-container-structure {
+    padding: 30px 30px 60px 30px;
+  }
+
+  .about-container-structure > ul {
+    padding: 50px 15px;
+  }
+
+  .div-structure {
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
   }
 
 /* =================================================== */
@@ -217,4 +255,11 @@ svg {
 
 .contact-container {
   margin: 100px 50px 50px 50px;
+}
+
+/* =================================================== */
+/* =================================================== */
+
+.card-body {
+  height: 300px;
 }
