@@ -47,28 +47,26 @@ svg {
 
 .navbar-nav a {
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 600;
   color: #4F4F4F;
   padding: 10px;
 }
 
 .navbar-nav a.active {
-  color: #3c7ff1;
+  color: #28317e;
 }
 
 .navbar-nav a:hover {
-  text-decoration: underline;
+  color: #28317e;
 }
 
 #basic-nav-dropdown {
   padding: 10px;
 }
 
-#basic-nav-dropdown:hover {
-  color: #4979cc;
-  text-decoration: underline;
+.dropdown-menu > a:hover {
+  color: #28317e;
 }
-
 
 .title {
     letter-spacing: 1px;
