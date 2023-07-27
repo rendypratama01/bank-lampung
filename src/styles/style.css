@@ -68,7 +68,7 @@ svg {
   padding: 10px;
 }
 
-.dropdown-menu > a:hover {
+.dropdown-menu a:hover {
   color: #28317e;
 }
 

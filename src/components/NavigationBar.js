@@ -6,7 +6,7 @@ import {
   NavDropdown,
 } from "react-bootstrap";
 import logo from "../assets/img/logo.png";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import {
   aboutPath,
   homePath,
@@ -17,6 +17,8 @@ import {
 } from "../routes";
 
 function NavigationBar() {
+  const location = useLocation();
+
   return (
     <div>
       <Navbar bg="light" data-bs-theme="light" fixed="top">
@@ -50,17 +52,13 @@ function NavigationBar() {
             <NavDropdown title="Produk" id="basic-nav-dropdown">
               <NavDropdown.Item
                 href={layananPath}
-                className={({ isActive, isPending }) =>
-                  isPending ? "pending" : isActive ? "active" : ""
-                }
+                className={location.pathname === layananPath ? "active" : ""}
               >
                 Layanan
               </NavDropdown.Item>
               <NavDropdown.Item
                 href={danaPath}
-                className={({ isActive, isPending }) =>
-                  isPending ? "pending" : isActive ? "active" : ""
-                }
+                className={location.pathname === danaPath ? "active" : ""}
               >
                 Dana
               </NavDropdown.Item>
