@@ -260,6 +260,37 @@ svg {
   margin: 100px 50px 50px 50px;
 }
 
+.contact iframe {
+  border-radius: 10px;
+}
+
+.contact-box {
+  margin: 50px auto 100px;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px 0 rgba(32,33,36,.3);
+  width: 100%;
+}
+
+.contact-item {
+  display: flex;
+  gap: 15px;
+  margin: 10px 0;
+  padding: 20px;
+}
+
+.contact-item_icon {
+  color: #28317e;
+  font-size: 30px;
+  display: flex;
+}
+
+
+
+
 /* =================================================== */
 /* =================================================== */
 
@@ -275,13 +306,21 @@ svg {
   border-bottom: 1px solid #b3b3b3;
 }
 
-
-.layanan-container >h3,
-.dana-container > h3 {
+.layanan-container > h3,
+.dana-container > h3,
+.contact-container > h3 {
   text-align: center;
   font-size: 32px;
-  padding: 20px;
+  padding: 10px;
   margin: 20px 10px;
   color: #28317e;
 }
 
+/* ================================================= */
+/* ================================================= */
+
+@media screen and (max-width: 575px){
+  .contact-box {
+    justify-content: flex-start;
+  }
+}
