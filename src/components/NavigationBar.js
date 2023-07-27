@@ -6,7 +6,7 @@ import {
   NavDropdown,
 } from "react-bootstrap";
 import logo from "../assets/img/logo.png";
-import { NavLink, useLocation } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import {
   aboutPath,
   homePath,
@@ -17,8 +17,6 @@ import {
 } from "../routes";
 
 function NavigationBar() {
-  const location = useLocation();
-
   return (
     <div>
       <Navbar bg="light" data-bs-theme="light" fixed="top">
@@ -73,7 +71,7 @@ function NavigationBar() {
                 isPending ? "pending" : isActive ? "active" : ""
               }
             >
-              Contact
+              Kontak
             </NavLink>
           </Nav>
         </Container>
