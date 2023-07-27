@@ -2,13 +2,15 @@ import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import LayananPage from "./pages/LayananPage";
 import ContactPage from "./pages/ContactPage";
+import DanaPage from "./pages/DanaPage";
 import "../src/styles/style.css";
 import {
   aboutPath,
   homePath,
+  layananPath,
+  danaPath,
   contactPath,
   rootPath,
-  servicePath,
 } from "./routes";
 import { Route, Routes } from "react-router-dom";
 import NavigationBar from "./components/NavigationBar";
@@ -23,7 +25,8 @@ function App() {
             <Route path={path} element={<HomePage />} key={index} />
           ))}
           <Route path={aboutPath} element={<AboutPage />} />
-          <Route path={servicePath} element={<LayananPage />} />
+          <Route path={layananPath} element={<LayananPage />} />
+          <Route path={danaPath} element={<DanaPage />} />
           <Route path={contactPath} element={<ContactPage />} />
         </Routes>
       </main>

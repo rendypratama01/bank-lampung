@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/logo.jpg";
+import logo from "../assets/img/logo.png";
 import { Tree, TreeNode } from "react-organizational-chart";
 
 function About() {

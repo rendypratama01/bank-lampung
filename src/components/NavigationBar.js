@@ -11,8 +11,9 @@ import {
   aboutPath,
   homePath,
   contactPath,
+  layananPath,
+  danaPath,
   rootPath,
-  servicePath,
 } from "../routes";
 
 function NavigationBar() {
@@ -50,22 +51,27 @@ function NavigationBar() {
             </NavLink>
             <NavDropdown title="Produk" id="basic-nav-dropdown">
               <NavDropdown.Item
-                href={servicePath}
-                className={location.pathname === servicePath ? "active" : ""}
+                href={layananPath}
+                className={({ isActive, isPending }) =>
+                  isPending ? "pending" : isActive ? "active" : ""
+                }
               >
                 Layanan
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
+              <NavDropdown.Item
+                href={danaPath}
+                className={({ isActive, isPending }) =>
+                  isPending ? "pending" : isActive ? "active" : ""
+                }
+              >
+                Dana
               </NavDropdown.Item>
             </NavDropdown>
             <NavLink
               to={contactPath}
-              className={location.pathname === contactPath ? "active" : ""}
+              className={({ isActive, isPending }) =>
+                isPending ? "pending" : isActive ? "active" : ""
+              }
             >
               Contact
             </NavLink>
