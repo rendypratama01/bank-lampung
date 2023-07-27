@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 main {
     font-family: "Poppins", sans-serif;
     color: #000;
