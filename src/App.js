@@ -14,6 +14,7 @@ import {
 } from "./routes";
 import { Route, Routes } from "react-router-dom";
 import NavigationBar from "./components/NavigationBar";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           <Route path={danaPath} element={<DanaPage />} />
           <Route path={contactPath} element={<ContactPage />} />
         </Routes>
+        <Footer />
       </main>
     </div>
   );
