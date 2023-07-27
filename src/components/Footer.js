@@ -7,6 +7,8 @@ import {
   MDBIcon,
 } from "mdb-react-ui-kit";
 import logo from "../assets/img/logo.png";
+import { Link } from "react-router-dom";
+import { danaPath, layananPath } from "../routes";
 
 export default function Footer() {
   return (
@@ -64,14 +66,14 @@ export default function Footer() {
               <MDBCol md="2" lg="2" xl="2" className="mx-auto mb-4">
                 <h6 className="text-uppercase fw-bold mb-4">Products</h6>
                 <p>
-                  <a href="#!" className="text-reset">
+                  <Link to={layananPath} className="text-reset">
                     Layanan
-                  </a>
+                  </Link>
                 </p>
                 <p>
-                  <a href="#!" className="text-reset">
+                  <Link to={danaPath} className="text-reset">
                     Dana
-                  </a>
+                  </Link>
                 </p>
               </MDBCol>
 
