@@ -266,3 +266,22 @@ svg {
 .card-body {
   height: 300px;
 }
+
+.card {
+  box-shadow: 2px 3px 8px -1px #999 !important;
+}
+
+.card-img-top {
+  border-bottom: 1px solid #b3b3b3;
+}
+
+
+.layanan-container >h3,
+.dana-container > h3 {
+  text-align: center;
+  font-size: 32px;
+  padding: 20px;
+  margin: 20px 10px;
+  color: #28317e;
+}
+
