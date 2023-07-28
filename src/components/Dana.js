@@ -12,7 +12,7 @@ function Dana() {
     <Row xs={1} md={4} className="g-4">
       <Col>
         <Card>
-          <Card.Img variant="top" src={lsave} alt="L Save" />
+          <Card.Img variant="top" src={lsave} alt="Tabungan L Save" />
           <Card.Body>
             <Card.Title>
               <NavLink to={homePath}>Tabungan L-Save</NavLink>
@@ -22,15 +22,12 @@ function Dana() {
               diperuntukan untuk nasbah perorangan.
             </Card.Text>
           </Card.Body>
-          <Card.Footer>
-            <small className="text-muted">Last updated 3 mins ago</small>
-          </Card.Footer>
         </Card>
       </Col>
 
       <Col>
         <Card>
-          <Card.Img variant="top" src={simpeda} alt="Simpeda" />
+          <Card.Img variant="top" src={simpeda} alt="Tabungan simpeda" />
           <Card.Body>
             <Card.Title>
               <NavLink to={homePath}>Tabungan Simpeda</NavLink>
@@ -41,9 +38,6 @@ function Dana() {
               non perorangan untuk kebutuhan transaksi sehari-hari.
             </Card.Text>
           </Card.Body>
-          <Card.Footer>
-            <small className="text-muted">Last updated 3 mins ago</small>
-          </Card.Footer>
         </Card>
       </Col>
 
@@ -59,15 +53,16 @@ function Dana() {
               untuk perorangan dengan persyaratan mudah dan ringan.
             </Card.Text>
           </Card.Body>
-          <Card.Footer>
-            <small className="text-muted">Last updated 3 mins ago</small>
-          </Card.Footer>
         </Card>
       </Col>
 
       <Col>
         <Card>
-          <Card.Img variant="top" src={simpel} alt="Simpel" />
+          <Card.Img
+            variant="top"
+            src={simpel}
+            alt="Tabungan simpanan pelajar"
+          />
           <Card.Body>
             <Card.Title>
               <NavLink to={homePath}>Tabungan Simpanan Pelajar</NavLink>
@@ -79,15 +74,12 @@ function Dana() {
               menabung sejak dini.
             </Card.Text>
           </Card.Body>
-          <Card.Footer>
-            <small className="text-muted">Last updated 3 mins ago</small>
-          </Card.Footer>
         </Card>
       </Col>
 
       <Col>
         <Card>
-          <Card.Img variant="top" src={giro} alt="Giro" />
+          <Card.Img variant="top" src={giro} alt="Giro Perorangan" />
           <Card.Body>
             <Card.Title>
               <NavLink to={homePath}>Giro Perorangan</NavLink>
@@ -99,15 +91,12 @@ function Dana() {
               dapat anda manfaatkan.
             </Card.Text>
           </Card.Body>
-          <Card.Footer>
-            <small className="text-muted">Last updated 3 mins ago</small>
-          </Card.Footer>
         </Card>
       </Col>
 
       <Col>
         <Card>
-          <Card.Img variant="top" src="holder.js/100px160" />
+          <Card.Img variant="top" src="holder.js/100px160" alt="Giro Swasta" />
           <Card.Body>
             <Card.Title>
               <NavLink to={homePath}>Giro Swasta</NavLink>
@@ -118,15 +107,12 @@ function Dana() {
               longer.
             </Card.Text>
           </Card.Body>
-          <Card.Footer>
-            <small className="text-muted">Last updated 3 mins ago</small>
-          </Card.Footer>
         </Card>
       </Col>
 
       <Col>
         <Card>
-          <Card.Img variant="top" src="holder.js/100px160" />
+          <Card.Img variant="top" src="holder.js/100px160" alt="Giro Dinas" />
           <Card.Body>
             <Card.Title>
               <NavLink to={homePath}>Giro Dinas</NavLink>
@@ -137,9 +123,6 @@ function Dana() {
               longer.
             </Card.Text>
           </Card.Body>
-          <Card.Footer>
-            <small className="text-muted">Last updated 3 mins ago</small>
-          </Card.Footer>
         </Card>
       </Col>
 
@@ -156,9 +139,6 @@ function Dana() {
               waktu tertentu menurut perjanjian antara deposan dan Bank.
             </Card.Text>
           </Card.Body>
-          <Card.Footer>
-            <small className="text-muted">Last updated 3 mins ago</small>
-          </Card.Footer>
         </Card>
       </Col>
     </Row>
