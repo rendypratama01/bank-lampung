@@ -85,10 +85,9 @@ function Dana() {
               <NavLink to={homePath}>Giro Perorangan</NavLink>
             </Card.Title>
             <Card.Text>
-              Giro Bank Lampung merupakan sarana transaksi keuangan yang bisa
-              anda andalkan untuk usaha maupun untuk keperluan keluarga anda
-              karena mempunyai begitu banyak fasilitas yang menguntungkan yang
-              dapat anda manfaatkan.
+              Giro Perorangan adalah jenis rekening bank yang diperuntukkan bagi
+              individu yang memungkinkan nasabah untuk melakukan setoran dan
+              penarikan uang secara fleksibel.
             </Card.Text>
           </Card.Body>
         </Card>
@@ -96,15 +95,15 @@ function Dana() {
 
       <Col>
         <Card>
-          <Card.Img variant="top" src="holder.js/100px160" alt="Giro Swasta" />
+          <Card.Img variant="top" src={giro} alt="Giro Swasta" />
           <Card.Body>
             <Card.Title>
               <NavLink to={homePath}>Giro Swasta</NavLink>
             </Card.Title>
             <Card.Text>
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
+              Giro Swasta adalah jenis rekening giro yang ditujukan bagi
+              perseorangan, kelompok, instansi swasta, yayasan sosial, dan badan
+              non-pemerintah lainnya.
             </Card.Text>
           </Card.Body>
         </Card>
@@ -112,15 +111,15 @@ function Dana() {
 
       <Col>
         <Card>
-          <Card.Img variant="top" src="holder.js/100px160" alt="Giro Dinas" />
+          <Card.Img variant="top" src={giro} alt="Giro Dinas" />
           <Card.Body>
             <Card.Title>
               <NavLink to={homePath}>Giro Dinas</NavLink>
             </Card.Title>
             <Card.Text>
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
+              Giro Dinas adalah jenis rekening giro yang ditujukan bagi instansi
+              pemerintah atau dinas. Giro dinas dapat digunakan untuk
+              mempermudah transaksi keuangan dan bisnis instansi pemerintah.
             </Card.Text>
           </Card.Body>
         </Card>
