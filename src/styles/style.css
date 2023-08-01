@@ -76,6 +76,18 @@ svg {
     letter-spacing: 1px;
 }
 
+.footer-info {
+  border: 1px solid rgb(213, 213, 213);
+}
+
+.mt-3 {
+  margin-top: 2rem !important;
+  margin-bottom: 2rem !important;
+}
+
+.text-reset:hover {
+  color: #28317e !important;
+}
 
 /* =================================================== */
 /* =================================================== */
