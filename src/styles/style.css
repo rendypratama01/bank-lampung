@@ -22,24 +22,28 @@ svg {
 }
 
 .background {
-    height: 100vh; 
-    background-size: cover;
+  height: 100vh;
+  background-size: cover;
 }
 
 .hero {
-    height: 300px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    font-family: 'Poppins', sans-serif;
-    letter-spacing: 2px;
-  }
+  margin-top: 60px;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 2px;
+  background-size: cover;
+  background-image: url(../assets/img/jumbotron.png);
+}
   
 .title {
   font-size: 3rem;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 1;
   letter-spacing: 4px;
+  color: #fff;
 }
 
 .navbar-nav {

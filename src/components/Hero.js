@@ -2,8 +2,8 @@ import { Col, Container, Row, Button } from "react-bootstrap";
 
 function Hero() {
   return (
-    <div className="hero">
-      <Container className="text-black text-center d-flex justify-content-center align-items-center">
+    <div className="hero d-flex justify-content-center align-items-center">
+      <Container className="text-center ">
         <Row>
           <Col>
             <div className="title">
@@ -12,7 +12,7 @@ function Hero() {
               KCP Menggala
             </div>
             <div className="introButton mt-4 text-center">
-              <Button variant="dark">Lihat Semua Product</Button>
+              <Button variant="primary">Lihat Semua Product</Button>
             </div>
           </Col>
         </Row>
