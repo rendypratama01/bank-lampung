@@ -24,7 +24,7 @@ function ContactBox() {
           </div>
           <div className="contact-item_text">
             <h5>Email</h5>
-            <p>banklampung@xxxx.com</p>
+            <p>komunikasi@banklampung.co.id</p>
           </div>
         </div>
         <div className="contact-item">
@@ -32,8 +32,8 @@ function ContactBox() {
             <HiPhone />
           </div>
           <div className="contact-item_text">
-            <h5>Telepon</h5>
-            <p>07xx-xxx-xxx</p>
+            <h5>Call Center</h5>
+            <p>1500575</p>
           </div>
         </div>
       </div>
