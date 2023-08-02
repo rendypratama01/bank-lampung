@@ -178,6 +178,13 @@ svg {
   /* =================================================== */
 /* =================================================== */
 
+.pinjaman-container {
+  margin: 100px 50px 50px 50px;
+}
+
+/* =================================================== */
+/* =================================================== */
+
 .dana-container {
   margin: 100px 50px 50px 50px;
 }
@@ -326,6 +333,7 @@ svg {
 
 .layanan-container > h3,
 .dana-container > h3,
+.pinjaman-container > h3,
 .contact-container > h3 {
   text-align: center;
   font-size: 32px;
