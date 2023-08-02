@@ -14,6 +14,7 @@ import {
   layananPath,
   danaPath,
   rootPath,
+  pinjamanPath,
 } from "../routes";
 
 function NavigationBar() {
@@ -61,6 +62,12 @@ function NavigationBar() {
                 className={location.pathname === danaPath ? "active" : ""}
               >
                 Dana
+              </NavDropdown.Item>
+              <NavDropdown.Item
+                href={pinjamanPath}
+                className={location.pathname === pinjamanPath ? "active" : ""}
+              >
+                Pinjaman
               </NavDropdown.Item>
             </NavDropdown>
             <NavLink
