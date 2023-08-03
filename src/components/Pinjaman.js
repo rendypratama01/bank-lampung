@@ -15,6 +15,8 @@ import kmkKonstruksiDeveloper from "../assets/img/pinjaman/k-m-k-konstruksi-deve
 import kreditUsahaRakyat from "../assets/img/pinjaman/kredit-usaha-rakyat(-k-u-r).png";
 import rekeningKoran from "../assets/img/pinjaman/rekening-koran.png";
 import bankGaransi from "../assets/img/pinjaman/bank-garansi.png";
+import { Link } from "react-router-dom";
+import { kreditAnekaUsahaPath, kreditKontraktorPath } from "../routes";
 
 function Pinjaman() {
   return (
@@ -27,7 +29,9 @@ function Pinjaman() {
             alt="Kredit aneka usaha"
           />
           <Card.Body>
-            <Card.Title>Kredit Aneka Usaha</Card.Title>
+            <Card.Title>
+              <Link to={kreditAnekaUsahaPath}>Kredit Aneka Usaha</Link>
+            </Card.Title>
             <Card.Text>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -44,7 +48,9 @@ function Pinjaman() {
             alt="Kredit kontraktor"
           />
           <Card.Body>
-            <Card.Title>Kredit Kontraktor</Card.Title>
+            <Card.Title>
+              <Link to={kreditKontraktorPath}>Kredit Kontraktor</Link>
+            </Card.Title>
             <Card.Text>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.

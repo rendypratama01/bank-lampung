@@ -1,6 +1,6 @@
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 html {
@@ -8,8 +8,8 @@ html {
 }
 
 main {
-    font-family: "Poppins", sans-serif;
-    color: #000;
+  font-family: "Poppins", sans-serif;
+  color: #000;
 }
 
 p {
@@ -17,8 +17,8 @@ p {
 }
 
 svg {
-    overflow: hidden;
-    vertical-align: middle;
+  overflow: hidden;
+  vertical-align: middle;
 }
 
 .background {
@@ -32,12 +32,12 @@ svg {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   letter-spacing: 2px;
   background-size: cover;
   background-image: url(../assets/img/jumbotron.png);
 }
-  
+
 .title {
   font-size: 3rem;
   font-weight: 700;
@@ -56,7 +56,7 @@ svg {
 .navbar-nav a {
   text-decoration: none;
   font-weight: 500;
-  color: #4F4F4F;
+  color: #4f4f4f;
   padding: 10px;
 }
 
@@ -77,7 +77,7 @@ svg {
 }
 
 .title {
-    letter-spacing: 1px;
+  letter-spacing: 1px;
 }
 
 .footer-info {
@@ -96,86 +96,85 @@ svg {
 /* =================================================== */
 /* =================================================== */
 
-
 .about-container {
-    margin: 100px 50px 50px 50px;
-  }
-  
-  .about-container h3 {
-    text-align: center;
-    font-size: 32px;
-    margin: 20px 0;
-    color: #28317e;
-  }
-  
-  .about-container_company {
-    display: flex;
-    padding: 60px 30px;
-    /* margin: 50px 20px; */
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-  }
-  
-  .about-container_company-logo {
-    width: 50%;
-  }
-  
-  .about-container_company-logo img {
-    /* width: 400px; */
-    width: 100%;
-    display: flex;
-    padding: 0 50px;
-    margin: auto;
-  }
-  
-  .about-container_company-text {
-    width: 50%;
-  }
-  
-  .about-container_company-text h4 {
-    font-size: 26px;
-    margin-bottom: 30px;
-  }
-  
-  .about-container_company-text h4,
-  .about-container_duty h4,
-  .about-container-value h4 {
-    color: #28317e;
-  }
+  margin: 100px 50px 50px 50px;
+}
 
-  .about-container_duty-vismis h5 {
-    font-size: 18px;
-    margin-bottom: 0px;
-    color: #28317e;
-  }
-  
-  .about-container_company-text p {
-    font-size: 16px;
-  }
-  
-  .about-container_duty {
-    display: flex;
-    padding: 60px 30px;
-  }
-  
-  .about-container_duty-vismis {
-    width: 50%;
-    border-right: 1px solid rgba(0, 0, 0, 0.1);
-    padding: 10px 30px;
-  }
-  
-  .about-container_duty-vission {
-    margin-bottom: 20px;
-  }
-  
-  .about-container_value {
-    width: 50%;
-    border-left: 1px solid rgba(0, 0, 0, 0.1);
-    padding: 10px 30px;
-  }
+.about-container h3 {
+  text-align: center;
+  font-size: 32px;
+  margin: 20px 0;
+  color: #28317e;
+}
 
-  /* =================================================== */
+.about-container_company {
+  display: flex;
+  padding: 60px 30px;
+  /* margin: 50px 20px; */
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.about-container_company-logo {
+  width: 50%;
+}
+
+.about-container_company-logo img {
+  /* width: 400px; */
+  width: 100%;
+  display: flex;
+  padding: 0 50px;
+  margin: auto;
+}
+
+.about-container_company-text {
+  width: 50%;
+}
+
+.about-container_company-text h4 {
+  font-size: 26px;
+  margin-bottom: 30px;
+}
+
+.about-container_company-text h4,
+.about-container_duty h4,
+.about-container-value h4 {
+  color: #28317e;
+}
+
+.about-container_duty-vismis h5 {
+  font-size: 18px;
+  margin-bottom: 0px;
+  color: #28317e;
+}
+
+.about-container_company-text p {
+  font-size: 16px;
+}
+
+.about-container_duty {
+  display: flex;
+  padding: 60px 30px;
+}
+
+.about-container_duty-vismis {
+  width: 50%;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 10px 30px;
+}
+
+.about-container_duty-vission {
+  margin-bottom: 20px;
+}
+
+.about-container_value {
+  width: 50%;
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 10px 30px;
+}
+
+/* =================================================== */
 /* =================================================== */
 
 .pinjaman-container {
@@ -192,89 +191,88 @@ svg {
 /* =================================================== */
 /* =================================================== */
 
-  .layanan-container {
-    margin: 100px 50px 50px 50px;
-  }
-  
-  .value-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 25px 0;
-    height: 10%;
-    column-gap: 10px;
-  }
+.layanan-container {
+  margin: 100px 50px 50px 50px;
+}
 
-  .value-icon-top {
-    width: 60px;
-    height: 60px;
-    border-radius: 12px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -webkit-box-align: center;
-    margin: 25px 0;
-  }
+.value-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px 0;
+  height: 10%;
+  column-gap: 10px;
+}
 
-  .value-icon-top svg {
-    width: 20px !important;
-    height: 20px !important;
-  }
+.value-icon-top {
+  width: 60px;
+  height: 60px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+  margin: 25px 0;
+}
 
-  .value-icon-top svg path {
-    fill: #fff;
+.value-icon-top svg {
+  width: 20px !important;
+  height: 20px !important;
+}
 
-  }
+.value-icon-top svg path {
+  fill: #fff;
+}
 
-  .value-container:first-of-type .value-icon-top {
-    background-color: #6f5fa6 !important;
-  }
+.value-container:first-of-type .value-icon-top {
+  background-color: #6f5fa6 !important;
+}
 
-  .value-container:nth-of-type(2) .value-icon-top {
-    background-color: #3c7ff1 !important
-  }
+.value-container:nth-of-type(2) .value-icon-top {
+  background-color: #3c7ff1 !important;
+}
 
-  .value-container:nth-of-type(3) .value-icon-top {
-    background-color: #7bd88a !important
-  }
+.value-container:nth-of-type(3) .value-icon-top {
+  background-color: #7bd88a !important;
+}
 
-  .value-container:nth-of-type(4) .value-icon-top {
-    background-color: #f74c58 !important
-  }
+.value-container:nth-of-type(4) .value-icon-top {
+  background-color: #f74c58 !important;
+}
 
-  .value-container:nth-of-type(5) .value-icon-top {
-    background-color: #f7cc62 !important
-  }
+.value-container:nth-of-type(5) .value-icon-top {
+  background-color: #f7cc62 !important;
+}
 
-  .value-text-top {
-    width: 100%;
-    padding: 10px;
-  }
+.value-text-top {
+  width: 100%;
+  padding: 10px;
+}
 
-  .value-text-top p {
-    margin: 0;
-    line-height: 15px;
-  }
+.value-text-top p {
+  margin: 0;
+  line-height: 15px;
+}
 
-  .value-text-top h5 {
-    padding-bottom: 2px;
-    color: #28317e;
-  }
+.value-text-top h5 {
+  padding-bottom: 2px;
+  color: #28317e;
+}
 
-  .about-container-structure {
-    padding: 30px 30px 60px 30px;
-  }
+.about-container-structure {
+  padding: 30px 30px 60px 30px;
+}
 
-  .about-container-structure > ul {
-    padding: 50px 15px;
-  }
+.about-container-structure > ul {
+  padding: 50px 15px;
+}
 
-  .div-structure {
-    padding: 10px;
-    border: 2px solid black;
-    border-radius: 10px;
-  }
+.div-structure {
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
 
 /* =================================================== */
 /* =================================================== */
@@ -312,14 +310,11 @@ svg {
   display: flex;
 }
 
-
-
-
 /* =================================================== */
 /* =================================================== */
 
 .card-body {
-  height: 300px;
+  height: 200px;
 }
 
 .card {
@@ -342,10 +337,370 @@ svg {
   color: #28317e;
 }
 
+.card-text {
+  overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 3; 
+   -webkit-box-orient: vertical;
+}
+
 /* ================================================= */
 /* ================================================= */
 
-@media screen and (max-width: 575px){
+.lonline-container {
+  margin: 100px 50px 50px 50px;
+}
+
+.lonline-container h3 {
+  text-align: center;
+  font-size: 32px;
+  margin: 20px 0;
+  color: #28317e;
+}
+
+.lonline-container p {
+  text-align: center;
+}
+
+.lonline-container_company-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lonline-container_detail {
+  margin-top: 50px;
+}
+
+.lonline-container_detail-feature h4,
+.lonline-container_detail-requirement h4 {
+  color: #28317e;
+}
+
+/* ================================================= */
+/* ================================================= */
+
+.lsmart-container {
+  margin: 100px 50px 50px 50px;
+}
+
+.lsmart-container h3 {
+  text-align: center;
+  font-size: 32px;
+  margin: 20px 0;
+  color: #28317e;
+}
+
+.lsmart-container p {
+  text-align: center;
+}
+
+.lsmart-container_company-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lsmart-container_detail {
+  margin-top: 50px;
+}
+
+.lsmart-container_detail-feature h4,
+.lsmart-container_detail-requirement h4 {
+  color: #28317e;
+}
+
+/* ================================================= */
+/* ================================================= */
+
+.qris-container {
+  margin: 100px 50px 50px 50px;
+}
+
+.qris-container h3 {
+  text-align: center;
+  font-size: 32px;
+  margin: 20px 0;
+  color: #28317e;
+}
+
+.qris-container p {
+  text-align: center;
+}
+
+.qris-container_company-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.qris-container_detail {
+  margin-top: 50px;
+}
+
+.qris-container_detail-feature h4,
+.qris-container_detail-requirement h4 {
+  color: #28317e;
+}
+
+/* ================================================= */
+/* ================================================= */
+
+.lsaving-container {
+  margin: 100px 50px 50px 50px;
+}
+
+.lsaving-container h3 {
+  text-align: center;
+  font-size: 32px;
+  margin: 20px 0;
+  color: #28317e;
+}
+
+.lsaving-container p {
+  text-align: center;
+}
+
+.lsaving-container_company-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.lsaving-container_detail {
+  margin-top: 50px;
+}
+
+.lsaving-container_detail-feature h4,
+.lsaving-container_detail-requirement h4 {
+  color: #28317e;
+}
+
+/* ================================================= */
+/* ================================================= */
+
+.simpeda-container {
+  margin: 100px 50px 50px 50px;
+}
+
+.simpeda-container h3 {
+  text-align: center;
+  font-size: 32px;
+  margin: 20px 0;
+  color: #28317e;
+}
+
+.simpeda-container p {
+  text-align: center;
+}
+
+.simpeda-container_company-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.simpeda-container_detail {
+  margin-top: 50px;
+}
+
+.simpeda-container_detail-feature h4,
+.simpeda-container_detail-requirement h4 {
+  color: #28317e;
+}
+
+/* ================================================= */
+/* ================================================= */
+
+.tabunganku-container {
+  margin: 100px 50px 50px 50px;
+}
+
+.tabunganku-container h3 {
+  text-align: center;
+  font-size: 32px;
+  margin: 20px 0;
+  color: #28317e;
+}
+
+.tabunganku-container p {
+  text-align: center;
+}
+
+.tabunganku-container_company-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.tabunganku-container_detail {
+  margin-top: 50px;
+}
+
+.tabunganku-container_detail-feature h4,
+.tabunganku-container_detail-requirement h4 {
+  color: #28317e;
+}
+
+/* ================================================= */
+/* ================================================= */
+
+.simpel-container {
+  margin: 100px 50px 50px 50px;
+}
+
+.simpel-container h3 {
+  text-align: center;
+  font-size: 32px;
+  margin: 20px 0;
+  color: #28317e;
+}
+
+.simpel-container p {
+  text-align: center;
+}
+
+.simpel-container_company-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.simpel-container_detail {
+  margin-top: 50px;
+}
+
+.simpel-container_detail-feature h4,
+.simpel-container_detail-requirement h4 {
+  color: #28317e;
+}
+
+/* ================================================= */
+/* ================================================= */
+
+.giro-container {
+  margin: 100px 50px 50px 50px;
+}
+
+.giro-container h3 {
+  text-align: center;
+  font-size: 32px;
+  margin: 20px 0;
+  color: #28317e;
+}
+
+.giro-container p {
+  text-align: center;
+}
+
+.giro-container_company-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.giro-container_detail {
+  margin-top: 50px;
+}
+
+.giro-container_detail-feature h4,
+.giro-container_detail-requirement h4 {
+  color: #28317e;
+}
+
+/* ================================================= */
+/* ================================================= */
+
+.deposito-container {
+  margin: 100px 50px 50px 50px;
+}
+
+.deposito-container h3 {
+  text-align: center;
+  font-size: 32px;
+  margin: 20px 0;
+  color: #28317e;
+}
+
+.deposito-container p {
+  text-align: center;
+}
+
+.deposito-container_company-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.deposito-container_detail {
+  margin-top: 50px;
+}
+
+.deposito-container_detail-feature h4,
+.deposito-container_detail-requirement h4 {
+  color: #28317e;
+}
+
+/* ================================================= */
+/* ================================================= */
+
+.kreditanekausaha-container,
+.kreditkontraktor-container {
+  margin: 100px 50px 50px 50px;
+}
+
+.kreditanekausaha-container h3,
+.kreditkontraktor-container h3 {
+  text-align: center;
+  font-size: 32px;
+  margin: 20px 0;
+  color: #28317e;
+}
+
+.kreditanekausaha-container > p,
+.kreditkontraktor-container > p {
+  text-align: center;
+}
+
+.kreditanekausaha-container_logo,
+.kreditkontraktor-container_logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.kreditanekausaha-container_detail,
+.kreditkontraktor-container_detail {
+  margin-top: 50px;
+}
+
+.kreditkontraktor_detail-konstruksi-transaksional > p,
+.kreditkontraktor_detail-konstruksi-plafond > p {
+  margin-top: 15px !important;
+}
+
+.kreditanekausaha-detail_information h4,
+.kreditanekausaha-detail_benefit h4,
+.kreditanekausaha-detail_requirement h4,
+.kreditkontraktor_detail-konstruksi-transaksional h4,
+.kreditkontraktor_detail-konstruksi-plafond h4 {
+  color: #28317e;
+  margin-top: 20px;
+}
+
+/* ================================================= */
+/* ================================================= */
+
+@media screen and (max-width: 575px) {
   .contact-box {
     justify-content: flex-start;
   }
