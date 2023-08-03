@@ -1,5 +1,5 @@
 import { Card, Row, Col } from "react-bootstrap";
-import { homePath, lampungSavingPath } from "../routes";
+import { depositoPath, giroDinasPath, giroPeroranganPath, giroSwastaPath, lampungSavingPath, simpananPelajarPath, simpedaPath, tabunganKuPath } from "../routes";
 import lsave from "../assets/img/lsave.png";
 import simpeda from "../assets/img/simpeda.png";
 import tabunganku from "../assets/img/tabunganku.png";
@@ -30,7 +30,7 @@ function Dana() {
           <Card.Img variant="top" src={simpeda} alt="Tabungan simpeda" />
           <Card.Body>
             <Card.Title>
-              <Card.Link href={homePath}>Tabungan Simpeda</Card.Link>
+              <Card.Link href={simpedaPath}>Tabungan Simpeda</Card.Link>
             </Card.Title>
             <Card.Text>
               Simpeda adalah tabungan Bank Pembangunan Daerah Seluruh Indonesia
@@ -46,7 +46,7 @@ function Dana() {
           <Card.Img variant="top" src={tabunganku} alt="Tabunganku" />
           <Card.Body>
             <Card.Title>
-              <Card.Link href={homePath}>Tabungan Ku</Card.Link>
+              <Card.Link href={tabunganKuPath}>Tabungan Ku</Card.Link>
             </Card.Title>
             <Card.Text>
               TabunganKu Bank Lampung merupakan produk tabungan yang dikhususkan
@@ -65,7 +65,7 @@ function Dana() {
           />
           <Card.Body>
             <Card.Title>
-              <Card.Link href={homePath}>Tabungan Simpanan Pelajar</Card.Link>
+              <Card.Link href={simpananPelajarPath}>Tabungan Simpanan Pelajar</Card.Link>
             </Card.Title>
             <Card.Text>
               Tabungan untuk siswa/pelajar yang ditertibkan oleh Bank Lampung
@@ -82,7 +82,7 @@ function Dana() {
           <Card.Img variant="top" src={giro} alt="Giro Perorangan" />
           <Card.Body>
             <Card.Title>
-              <Card.Link href={homePath}>Giro Perorangan</Card.Link>
+              <Card.Link href={giroPeroranganPath}>Giro Perorangan</Card.Link>
             </Card.Title>
             <Card.Text>
               Giro Perorangan adalah jenis rekening bank yang diperuntukkan bagi
@@ -98,7 +98,7 @@ function Dana() {
           <Card.Img variant="top" src={giro} alt="Giro Swasta" />
           <Card.Body>
             <Card.Title>
-              <Card.Link href={homePath}>Giro Swasta</Card.Link>
+              <Card.Link href={giroSwastaPath}>Giro Swasta</Card.Link>
             </Card.Title>
             <Card.Text>
               Giro Swasta adalah jenis rekening giro yang ditujukan bagi
@@ -114,7 +114,7 @@ function Dana() {
           <Card.Img variant="top" src={giro} alt="Giro Dinas" />
           <Card.Body>
             <Card.Title>
-              <Card.Link href={homePath}>Giro Dinas</Card.Link>
+              <Card.Link href={giroDinasPath}>Giro Dinas</Card.Link>
             </Card.Title>
             <Card.Text>
               Giro Dinas adalah jenis rekening giro yang ditujukan bagi instansi
@@ -130,7 +130,7 @@ function Dana() {
           <Card.Img variant="top" src={deposito} alt="Deposito" />
           <Card.Body>
             <Card.Title>
-              <Card.Link href={homePath}>Deposito</Card.Link>
+              <Card.Link href={depositoPath}>Deposito</Card.Link>
             </Card.Title>
             <Card.Text>
               Simpanan dalam bentuk mata uang rupiah dari pihak ketiga (deposan)

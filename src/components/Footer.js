@@ -8,7 +8,7 @@ import {
 } from "mdb-react-ui-kit";
 import logo from "../assets/img/logo.png";
 import { Link } from "react-router-dom";
-import { danaPath, layananPath } from "../routes";
+import { danaPath, layananPath, pinjamanPath } from "../routes";
 
 export default function Footer() {
   return (
@@ -46,6 +46,11 @@ export default function Footer() {
                 <p>
                   <Link to={danaPath} className="text-reset">
                     Dana
+                  </Link>
+                </p>
+                <p>
+                  <Link to={pinjamanPath} className="text-reset">
+                    Pinjaman
                   </Link>
                 </p>
               </MDBCol>

@@ -482,6 +482,173 @@ svg {
 /* ================================================= */
 /* ================================================= */
 
+.simpeda-container {
+  margin: 100px 50px 50px 50px;
+}
+
+.simpeda-container h3 {
+  text-align: center;
+  font-size: 32px;
+  margin: 20px 0;
+  color: #28317e;
+}
+
+.simpeda-container p {
+  text-align: center;
+}
+
+.simpeda-container_company-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.simpeda-container_detail {
+  margin-top: 50px;
+}
+
+.simpeda-container_detail-feature h4,
+.simpeda-container_detail-requirement h4 {
+  color: #28317e;
+}
+
+/* ================================================= */
+/* ================================================= */
+
+.tabunganku-container {
+  margin: 100px 50px 50px 50px;
+}
+
+.tabunganku-container h3 {
+  text-align: center;
+  font-size: 32px;
+  margin: 20px 0;
+  color: #28317e;
+}
+
+.tabunganku-container p {
+  text-align: center;
+}
+
+.tabunganku-container_company-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.tabunganku-container_detail {
+  margin-top: 50px;
+}
+
+.tabunganku-container_detail-feature h4,
+.tabunganku-container_detail-requirement h4 {
+  color: #28317e;
+}
+
+/* ================================================= */
+/* ================================================= */
+
+.simpel-container {
+  margin: 100px 50px 50px 50px;
+}
+
+.simpel-container h3 {
+  text-align: center;
+  font-size: 32px;
+  margin: 20px 0;
+  color: #28317e;
+}
+
+.simpel-container p {
+  text-align: center;
+}
+
+.simpel-container_company-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.simpel-container_detail {
+  margin-top: 50px;
+}
+
+.simpel-container_detail-feature h4,
+.simpel-container_detail-requirement h4 {
+  color: #28317e;
+}
+
+/* ================================================= */
+/* ================================================= */
+
+.giro-container {
+  margin: 100px 50px 50px 50px;
+}
+
+.giro-container h3 {
+  text-align: center;
+  font-size: 32px;
+  margin: 20px 0;
+  color: #28317e;
+}
+
+.giro-container p {
+  text-align: center;
+}
+
+.giro-container_company-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.giro-container_detail {
+  margin-top: 50px;
+}
+
+.giro-container_detail-feature h4,
+.giro-container_detail-requirement h4 {
+  color: #28317e;
+}
+
+/* ================================================= */
+/* ================================================= */
+
+.deposito-container {
+  margin: 100px 50px 50px 50px;
+}
+
+.deposito-container h3 {
+  text-align: center;
+  font-size: 32px;
+  margin: 20px 0;
+  color: #28317e;
+}
+
+.deposito-container p {
+  text-align: center;
+}
+
+.deposito-container_company-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.deposito-container_detail {
+  margin-top: 50px;
+}
+
+.deposito-container_detail-feature h4,
+.deposito-container_detail-requirement h4 {
+  color: #28317e;
+}
+
 /* ================================================= */
 /* ================================================= */
 @media screen and (max-width: 575px) {

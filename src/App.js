@@ -16,6 +16,13 @@ import {
   lampungSmartPath,
   qrisPath,
   lampungSavingPath,
+  simpedaPath,
+  tabunganKuPath,
+  simpananPelajarPath,
+  giroPeroranganPath,
+  giroSwastaPath,
+  giroDinasPath,
+  depositoPath,
 } from "./routes";
 import { Route, Routes } from "react-router-dom";
 import NavigationBar from "./components/NavigationBar";
@@ -25,6 +32,13 @@ import LampungOnlinePage from "./pages/LampungOnlinePage";
 import LampungSmartPage from "./pages/LampungSmart";
 import QrisPage from "./pages/QrisPage";
 import LampungSavingPage from "./pages/LampungSavingPage";
+import SimpedaPage from "./pages/SimpedaPage";
+import TabunganKuPage from "./pages/TabunganKuPage";
+import SimpananPelajarPage from "./pages/SimpananPelajarPage";
+import GiroPeroranganPage from "./pages/GiroPeroranganPage";
+import GiroSwastaPage from "./pages/GiroSwastaPage";
+import GiroDinasPage from "./pages/GiroDinasPage";
+import DepositoPage from "./pages/DepositoPage";
 
 function App() {
   return (
@@ -44,6 +58,13 @@ function App() {
           <Route path={lampungSmartPath} element={<LampungSmartPage />} />
           <Route path={qrisPath} element={<QrisPage />} />
           <Route path={lampungSavingPath} element={<LampungSavingPage />} />
+          <Route path={simpedaPath} element={<SimpedaPage />} />
+          <Route path={tabunganKuPath} element={<TabunganKuPage />} />
+          <Route path={simpananPelajarPath} element={<SimpananPelajarPage />} />
+          <Route path={giroPeroranganPath} element={<GiroPeroranganPage />} />
+          <Route path={giroSwastaPath} element={<GiroSwastaPage />} />
+          <Route path={giroDinasPath} element={<GiroDinasPage />} />
+          <Route path={depositoPath} element={<DepositoPage />} />
         </Routes>
         <Footer />
       </main>
