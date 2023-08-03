@@ -1,6 +1,11 @@
 export const rootPath = "/";
-export const homePath = "/home";
-export const aboutPath = "/about";
+export const homePath = "/beranda";
+export const aboutPath = "/tentang";
 export const layananPath = "/layanan";
 export const danaPath = "/dana";
-export const contactPath = "/contact"
+export const pinjamanPath = "/pinjaman";
+export const contactPath = "/kontak";
+export const lampungOnlinePath = "/layanan/lonline";
+export const lampungSmartPath = "/layanan/lsmart";
+export const qrisPath = "/layanan/qris";
+export const lampungSavingPath = "/dana/lsaving"

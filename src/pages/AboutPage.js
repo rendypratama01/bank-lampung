@@ -1,17 +1,12 @@
 import About from "../components/About";
-import Footer from "../components/Footer";
 
 function AboutPage() {
   return (
     <div>
       <div>
-      <About />
-    </div>
-      <div className="footer">
-        <Footer />
+        <About />
       </div>
     </div>
-    
   );
 }
 
