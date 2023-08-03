@@ -16,6 +16,7 @@ export const giroPeroranganPath = "/dana/giroperorangan";
 export const giroSwastaPath = "/dana/giroswasta";
 export const giroDinasPath = "/dana/girodinas";
 export const depositoPath = "/dana/deposito";
+
 export const kreditAnekaUsahaPath = "/pinjaman/kredit-aneka-usaha";
 export const kreditKontraktorPath = "/pinjaman/kredit-kontraktor";
 export const kreditKiKmkPath = "/pinjaman/kredit-ki-kmk";
@@ -31,4 +32,4 @@ export const kreditLinkageProgramPath = "/pinjaman/kredit-linkage-program";
 export const kmkKonstruksiDeveloperPath = "/pinjaman/kmk-konstruksi-developer";
 export const kreditUsahaRakyatPath = "/pinjaman/kredit-usaha-rakyat";
 export const rekeningKoranPath = "/pinjaman/rekening-koran";
-export const bankGaransi = "/pinjaman/bank-garansi";
+export const bankGaransiPath = "/pinjaman/bank-garansi";

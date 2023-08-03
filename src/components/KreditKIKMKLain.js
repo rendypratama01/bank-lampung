@@ -1,56 +1,30 @@
 import React from "react";
-import kreditAnekaUsaha from "../assets/img/pinjaman/kredit-aneka-usaha.png";
+import kreditKmkLainnya from "../assets/img/pinjaman/kredit-kmk-lainnya.png";
 
-function KreditAnekaUsaha() {
+function KreditKIKMKLain() {
   return (
     <div className="pinjaman-item-container">
-      <h3>Kredit Aneka Usaha</h3>
+      <h3>Kredit KI/KMK Lainnya</h3>
       <p>
-        Kredit Aneka Usaha (KAU) adalah kredit yang diberikan kepada usaha-usaha
-        produktif segmen Mikro untuk membiayai kebutuhan usaha produktif baik
-        untuk kebutuhan investasi maupun kebutuhan modal kerja.
+        Merupakan salah satu fasilitas kredit modal kerja dan investasi Bank
+        Lampung dengan plafond pinjaman yang besar.
       </p>
       <div className="pinjaman-item_logo">
         <img
-          src={kreditAnekaUsaha}
-          alt="Logo kredit aneka usaha"
+          src={kreditKmkLainnya}
+          alt="Logo kredit kmk lainnya"
           width="500px"
         />
       </div>
       <div className="pinjaman-item_detail">
-        <div className="pinjaman-item_detail-information">
-          <h4>Informasi</h4>
-          <p>
-            Kredit Aneka Usaha (KAU) adalah kredit yang diberikan kepada
-            usaha-usaha produktif segmen Mikro untuk membiayai kebutuhan usaha
-            produktif baik untuk kebutuhan investasi maupun kebutuhan modal
-            kerja.
-          </p>
-          <ul>
-            <li>Plafond Kredit Aneka Usaha sd Rp.500.000.000</li>
-            <li>Suku Bunga 14 % per tahun</li>
-            <li>
-              Kredit Aneka Usaha telah dilakukan revisi untuk penambahan produk
-              Kredit KMK Aneka Usaha Rekening Koran dengan suku bunga 11-14% per
-              tahun
-            </li>
-          </ul>
-        </div>
         <div className="pinjaman-item_detail-benefit">
           <h4>Manfaat</h4>
           <ol type="1">
-            <li>Proses kredit cepat</li>
+            <li>Proses kredit cepat dan mudah</li>
             <li>Persyaratan kredit ringan</li>
-            <li>Memenuhi kebutuhan modal kerja atau investasi usaha anda</li>
+            <li>Memenuhi kebutuhan modal kerja atau investasi usaha</li>
             <li>Angsuran kredit per bulan yang ringan & suku bunga bersaing</li>
-            <li>
-              Diberikan pembekalan mengenai kiat usaha yang bisa mendatangkan
-              profit
-            </li>
-            <li>
-              Diberikan pendampingan pengelolaan manajemen keuangan bagi usaha
-              mikro
-            </li>
+            <li>Plafond ? Rp. 200.000.000,-</li>
             <li>Biaya administrasi yang murah</li>
           </ol>
         </div>
@@ -63,7 +37,7 @@ function KreditAnekaUsaha() {
             <ul type="disc">
               <li>Fotokopi KTP</li>
               <li>Fotokopi KK</li>
-              <li>Buku nikah/Surat Keterangan Status (Sudah Menikah/ Cerai)</li>
+              <li>Buku Nikah/Surat Keterangan Status (Sudah Menikah/ Cerai)</li>
               <li>Surat Keterangan Usaha (SKU)</li>
               <li>SPT PBB tahun terakhir dari jaminan</li>
               <li>Kredit mulai Rp. 100.000.000,- dipersyaratkan :</li>
@@ -72,6 +46,7 @@ function KreditAnekaUsaha() {
                 Legalitas Usaha seperti : SIUP, TDP, SITU, atau lainnya sesuai
                 dengan bidang usaha
               </li>
+              <li>SPT Pajak selama 2 (dua) tahun terakhir</li>
               <li>Fotokopi Jaminan yang akan diagunkan</li>
             </ul>
             <li>
@@ -85,11 +60,15 @@ function KreditAnekaUsaha() {
                 Mempunyai aturan kelompok yang disepakati oleh seluruh anggota
                 kelompok
               </li>
+              <li>
+                Sesuai SLIK OJK diketahui bahwa pengurus dan anggota kelompok
+                tidak memiliki kredit bermasalah
+              </li>
               <li>Surat Keterangan Usaha (SKU)</li>
               <li>Identitas diri pengurus dan anggota berupa :</li>
               <li>Fotokopi KTP</li>
               <li>Fotokopi KK</li>
-              <li>Fotokopi buku nikah/Surat keterangan status</li>
+              <li>Fotokopi Buku Nikah/Surat keterangan status</li>
               <li>Melampirkan RAB (rencana anggaran belanja)</li>
               <li>Daftar susunan pengurus kelompok</li>
               <li>Fotokopi NPWP untuk pinjaman diatas Rp. 100.000.000,-</li>
@@ -106,4 +85,4 @@ function KreditAnekaUsaha() {
   );
 }
 
-export default KreditAnekaUsaha;
+export default KreditKIKMKLain;

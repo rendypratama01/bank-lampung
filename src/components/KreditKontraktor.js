@@ -3,24 +3,25 @@ import kreditKontraktor from "../assets/img/pinjaman/kredit-kontraktor.png";
 
 function KreditKontraktor() {
   return (
-    <div className="kreditkontraktor-container">
+    <div className="pinjaman-item-container">
       <h3>Kredit Kontraktor</h3>
       <p>
-        Merupakan salah satu produk unggulan di segmen produktif pada PT. Bank
-        Pembangunan Daerah Lampung, Kredit Modal Kerja Kontraktor merupakan
-        fasilitas kredit yang diberikan kepada kontraktor atau konsultan untuk
-        pembuatan atau penyelesaian atas pengadaan barang dan jasa atau suatu
-        kegiatan konstruksi dari suatu proyek bangunan fisik dan non-fisik.
+        Kredit Kontraktor merupakan salah satu produk unggulan di segmen
+        produktif pada PT. Bank Pembangunan Daerah Lampung, Kredit Modal Kerja
+        Kontraktor merupakan fasilitas kredit yang diberikan kepada kontraktor
+        atau konsultan untuk pembuatan atau penyelesaian atas pengadaan barang
+        dan jasa atau suatu kegiatan konstruksi dari suatu proyek bangunan fisik
+        dan non-fisik.
       </p>
-      <div className="kreditkontraktor-container_logo">
+      <div className="pinjaman-item_logo">
         <img
           src={kreditKontraktor}
           alt="Logo kredit kontraktor"
           width="500px"
         />
       </div>
-      <div className="kreditkontraktor-container_detail">
-        <div className="kreditkontraktor_detail-konstruksi-transaksional">
+      <div className="pinjaman-item_detail">
+        <div className="pinjaman-item_detail-konstruksi">
           <h4>KMK Konstruksi Transaksional</h4>
           <p>
             Adalah kredit modal kerja yang diberikan pada Kontraktor atau
@@ -42,7 +43,7 @@ function KreditKontraktor() {
             </ol>
           </ol>
         </div>
-        <div className="kreditkontraktor_detail-konstruksi-plafond">
+        <div className="pinjaman-item_detail-konstruksi">
           <h4>KMK Konstruksi Plafond</h4>
           <p>
             Adalah pemberian kredit modal kerja untuk kontraktor yang

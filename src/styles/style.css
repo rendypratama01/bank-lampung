@@ -652,49 +652,46 @@ svg {
 /* ================================================= */
 /* ================================================= */
 
-.kreditanekausaha-container,
-.kreditkontraktor-container {
+.pinjaman-item-container {
   margin: 100px 50px 50px 50px;
 }
 
-.kreditanekausaha-container h3,
-.kreditkontraktor-container h3 {
+.pinjaman-item-container h3 {
   text-align: center;
   font-size: 32px;
   margin: 20px 0;
   color: #28317e;
 }
 
-.kreditanekausaha-container > p,
-.kreditkontraktor-container > p {
+.pinjaman-item-container > p {
   text-align: center;
 }
 
-.kreditanekausaha-container_logo,
-.kreditkontraktor-container_logo {
+.pinjaman-item_logo {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 20px 0;
+  margin: 50px 0;
 }
 
-.kreditanekausaha-container_detail,
-.kreditkontraktor-container_detail {
+.pinjaman-item_detail {
   margin-top: 50px;
 }
 
-.kreditkontraktor_detail-konstruksi-transaksional > p,
-.kreditkontraktor_detail-konstruksi-plafond > p {
+.pinjaman-item_detail-konstruksi > p {
   margin-top: 15px !important;
 }
 
-.kreditanekausaha-detail_information h4,
-.kreditanekausaha-detail_benefit h4,
-.kreditanekausaha-detail_requirement h4,
-.kreditkontraktor_detail-konstruksi-transaksional h4,
-.kreditkontraktor_detail-konstruksi-plafond h4 {
+.pinjaman-item_detail-information h4,
+.pinjaman-item_detail-benefit h4,
+.pinjaman-item_detail-requirement h4,
+.pinjaman-item_detail-konstruksi h4 {
   color: #28317e;
   margin-top: 20px;
+}
+
+.pinjaman-item_detail-requirement > ol > li {
+  margin-top: 15px !important;
 }
 
 /* ================================================= */
