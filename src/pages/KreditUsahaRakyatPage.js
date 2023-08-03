@@ -131,11 +131,11 @@ function KreditUsahaRakyatPage() {
                 <tr>
                   <td>1. Belum pernah menerima KUR</td>
                   <td>
-                    1. individu (perorangan) yang melakukan usaha produktif dan
+                    1. Individu (perorangan) yang melakukan usaha produktif dan
                     layak
                   </td>
                   <td>
-                    1. individu (perorangan) yang melakukan usaha produktif dan
+                    1. Individu (perorangan) yang melakukan usaha produktif dan
                     layak
                   </td>
                 </tr>
