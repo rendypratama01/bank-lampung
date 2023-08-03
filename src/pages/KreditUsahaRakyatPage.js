@@ -154,12 +154,12 @@ function KreditUsahaRakyatPage() {
                 <tr>
                   <td>- Mengikuti program pendampingan</td>
                   <td rowSpan={3}>
-                    3. tidak sedang menerima kredit perbankan komersial (modal
+                    3. Tidak sedang menerima kredit perbankan komersial (modal
                     kerja/investasi) kecuali kredit konsumtif seperti KPR, KKB,
                     Kartu Kredit.
                   </td>
                   <td rowSpan={3}>
-                    3. tidak sedang menerima kredit perbankan komersial (modal
+                    3. Tidak sedang menerima kredit perbankan komersial (modal
                     kerja/investasi) kecuali kredit konsumtif seperti KPR, KKB,
                     Kartu Kredit.
                   </td>
