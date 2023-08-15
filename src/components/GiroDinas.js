@@ -10,7 +10,7 @@ function GiroDinas() {
         transaksi keuangan dan bisnis instansi pemerintah.
       </p>
       <div className="giro-container_company-logo">
-        <img src={giro} alt="Logo Giro" width="500px" />
+        <img src={giro} alt="Logo Giro" width="400px" />
       </div>
       <div className="giro-container_detail">
         <div className="giro-container_detail-feature">

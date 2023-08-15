@@ -10,7 +10,7 @@ function Simpeda() {
         perorangan untuk kebutuhan transaksi sehari-hari.
       </p>
       <div className="simpeda-container_company-logo">
-        <img src={simpeda} alt="Logo Simpeda" width="500px" />
+        <img src={simpeda} alt="Logo Simpeda" width="400px" />
       </div>
       <div className="simpeda-container_detail">
         <div className="simpeda-container_detail-feature">

@@ -10,7 +10,7 @@ function LampungSmart() {
         keuangan tanpa kantor.
       </p>
       <div className="lsmart-container_company-logo">
-        <img src={lsmart} alt="Logo Lampung Smart" width="500px" />
+        <img src={lsmart} alt="Logo Lampung Smart" width="400px" />
       </div>
       <div className="lsmart-container_detail">
         <div className="lsmart-container_detail-feature">

@@ -5,14 +5,21 @@ import {
   MDBRow,
   MDBCol,
   MDBIcon,
+  MDBNavbarLink,
 } from "mdb-react-ui-kit";
 import logo from "../assets/img/logo.png";
-import { Link } from "react-router-dom";
-import { danaPath, layananPath, pinjamanPath } from "../routes";
+import {
+  aboutPath,
+  contactPath,
+  danaPath,
+  homePath,
+  layananPath,
+  pinjamanPath,
+} from "../routes";
 
 export default function Footer() {
   return (
-    <div className="footer">
+    <div className="footer-container">
       <MDBFooter
         bgColor="light"
         className="text-center text-lg-start text-muted"
@@ -20,79 +27,113 @@ export default function Footer() {
         <section className="footer-info">
           <MDBContainer className="text-center text-md-start mt-5">
             <MDBRow className="mt-3">
-              <MDBCol md="3" lg="4" xl="3" className="mx-auto mb-4">
+              <MDBCol sm="9" md="6" lg="3" xl="4" className="mx-auto mb-4">
                 <h6 className="text-uppercase fw-bold mb-4">
-                  <img
-                    alt=""
-                    src={logo}
-                    height="50"
-                    className="d-inline-block align-top"
-                  />
+                  <MDBNavbarLink href={homePath}>
+                    <img
+                      alt=""
+                      src={logo}
+                      height="50"
+                      className="d-inline-block align-top"
+                    />
+                  </MDBNavbarLink>
                 </h6>
-                <p>
-                  Bank Lampung KCP Menggala adalah salah satu cabang Bank
-                  Pembangunan Daerah (BPD) yang berlokasi di daerah Menggala,
-                  Lampung.
-                </p>
+                <div className="desk-footer">
+                  <p>
+                    Bank Lampung KCP Menggala adalah salah satu cabang Bank
+                    Pembangunan Daerah (BPD) yang berlokasi di daerah Menggala,
+                    Lampung.
+                  </p>
+                </div>
               </MDBCol>
 
-              <MDBCol md="2" lg="2" xl="2" className="mx-auto mb-4">
-                <h6 className="text-uppercase fw-bold mb-4">Products</h6>
-                <p>
-                  <Link to={layananPath} className="text-reset">
-                    Layanan
-                  </Link>
-                </p>
-                <p>
-                  <Link to={danaPath} className="text-reset">
-                    Dana
-                  </Link>
-                </p>
-                <p>
-                  <Link to={pinjamanPath} className="text-reset">
-                    Pinjaman
-                  </Link>
-                </p>
+              <MDBCol sm="4" md="6" lg="2" xl="2" className="mx-auto mb-4">
+                <div className="info-footer">
+                  <h6 className="text-uppercase fw-bold mb-4">Products</h6>
+                  <div className="desk-footer">
+                    <p>
+                      <a href={layananPath} className="text-reset">
+                        Layanan
+                      </a>
+                    </p>
+                    <p>
+                      <a href={danaPath} className="text-reset">
+                        Dana
+                      </a>
+                    </p>
+                    <p>
+                      <a href={pinjamanPath} className="text-reset">
+                        Pinjaman
+                      </a>
+                    </p>
+                  </div>
+                </div>
               </MDBCol>
 
-              <MDBCol md="3" lg="2" xl="2" className="mx-auto mb-4">
-                <h6 className="text-uppercase fw-bold mb-4">About</h6>
-                <p>
-                  <a href="#!" className="text-reset">
-                    Profil
-                  </a>
-                </p>
-                <p>
-                  <a href="#!" className="text-reset">
-                    Visi Misi
-                  </a>
-                </p>
-                <p>
-                  <a href="#!" className="text-reset">
-                    Nilai Perusahaan
-                  </a>
-                </p>
-                <p>
-                  <a href="#!" className="text-reset">
-                    Struktur Organisasi
-                  </a>
-                </p>
+              <MDBCol sm="4" md="6" lg="2" xl="2" className="mx-auto mb-4">
+                <div className="info-footer">
+                  <h6 className="text-uppercase fw-bold mb-4">About</h6>
+                  <div className="desk-footer">
+                    <p>
+                      <a href={aboutPath} className="text-reset">
+                        Profil
+                      </a>
+                    </p>
+                    <p>
+                      <a href={aboutPath} className="text-reset">
+                        Visi Misi
+                      </a>
+                    </p>
+                    <p>
+                      <a href={aboutPath} className="text-reset">
+                        Nilai Perusahaan
+                      </a>
+                    </p>
+                    <p>
+                      <a href={aboutPath} className="text-reset">
+                        Struktur Organisasi
+                      </a>
+                    </p>
+                  </div>
+                </div>
               </MDBCol>
 
-              <MDBCol md="4" lg="3" xl="3" className="mx-auto mb-md-0 mb-4">
-                <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
-                <p>
-                  <MDBIcon color="secondary" icon="home" className="me-2" />
-                  Menggala Sel., Menggala, Kabupaten Tulangbawang, Lampung
-                </p>
-                <p>
-                  <MDBIcon color="secondary" icon="envelope" className="me-3" />
-                  komunikasi@banklampung.co.id
-                </p>
-                <p>
-                  <MDBIcon color="secondary" icon="phone" className="me-3" />
-                  1500575
-                </p>
+              <MDBCol
+                sm="10"
+                md="6"
+                lg="3"
+                xl="4"
+                className="mx-auto mb-md-0 mb-4"
+              >
+                <div className="info-footer">
+                  <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
+                  <div className="desk-footer">
+                    <p>
+                      <MDBIcon color="primary" icon="home" className="me-3" />
+                      <MDBNavbarLink href={contactPath}>
+                        Menggala Sel., Menggala, Kabupaten Tulangbawang, Lampung
+                      </MDBNavbarLink>
+                    </p>
+                    <p>
+                      <MDBIcon
+                        color="primary"
+                        icon="envelope"
+                        className="me-3"
+                      />
+                      <MDBNavbarLink href={contactPath}>
+                        kcpmenggala@gmail.co.id
+                      </MDBNavbarLink>
+                    </p>
+                    <p>
+                      <MDBIcon
+                        color="primary"
+                        icon="clock"
+                        className="me-3"
+                      />
+                      <MDBNavbarLink href={contactPath}>(08.00-15.00)</MDBNavbarLink>
+                    </p>
+                  </div>
+                </div>
               </MDBCol>
             </MDBRow>
           </MDBContainer>

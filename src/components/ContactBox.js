@@ -1,6 +1,5 @@
 import React from "react";
-import { MdLocationPin, MdEmail } from "react-icons/md";
-import { HiPhone } from "react-icons/hi";
+import { MdLocationPin, MdEmail, MdAccessTime } from "react-icons/md";
 
 function ContactBox() {
   return (
@@ -24,16 +23,16 @@ function ContactBox() {
           </div>
           <div className="contact-item_text">
             <h5>Email</h5>
-            <p>komunikasi@banklampung.co.id</p>
+            <p>kcpmenggala@gmail.co.id</p>
           </div>
         </div>
         <div className="contact-item">
           <div className="contact-item_icon">
-            <HiPhone />
+            <MdAccessTime />
           </div>
           <div className="contact-item_text">
-            <h5>Call Center</h5>
-            <p>1500575</p>
+            <h5>Jam Operasional</h5>
+            <p>(08.00-15.00)</p>
           </div>
         </div>
       </div>

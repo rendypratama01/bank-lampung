@@ -10,7 +10,7 @@ function Deposito() {
         tertentu menurut perjanjian antara deposan dan Bank.
       </p>
       <div className="deposito-container_company-logo">
-        <img src={deposito} alt="Logo Deposito" width="500px" />
+        <img src={deposito} alt="Logo Deposito" width="400px" />
       </div>
       <div className="deposito-container_detail">
         <div className="deposito-container_detail-feature">

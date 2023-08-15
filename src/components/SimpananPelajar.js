@@ -10,7 +10,7 @@ function SimpananPelajar() {
         edukasi dan inklusi keuangan untuk mendorong budaya menabung sejak dini.
       </p>
       <div className="simpel-container_company-logo">
-        <img src={simpel} alt="Logo Simpanan Pelajar" width="500px" />
+        <img src={simpel} alt="Logo Simpanan Pelajar" width="400px" />
       </div>
       <div className="simpel-container_detail">
         <div className="simpel-container_detail-feature">

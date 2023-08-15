@@ -13,6 +13,8 @@ import {
   rootPath,
   pinjamanPath,
   lampungOnlinePath,
+  kreditAnekaUsahaPath,
+  kreditKontraktorPath,
   lampungSmartPath,
   qrisPath,
   lampungSavingPath,
@@ -23,13 +25,28 @@ import {
   giroSwastaPath,
   giroDinasPath,
   depositoPath,
+  kreditKiKmkPath,
+  kmkKiKurPath,
+  kreditResiGudangPath,
+  kreditPantasPegawaiAktifPath,
+  kreditPantasPensiunPath,
+  kreditPantasPraPensiunPath,
+  kreditSigerDewanPath,
+  kreditPeroranganPath,
+  kreditLinkageProgramPath,
+  kmkKonstruksiDeveloperPath,
+  kreditUsahaRakyatPath,
+  rekeningKoranPath,
+  bankGaransiPath,
 } from "./routes";
 import { Route, Routes } from "react-router-dom";
 import NavigationBar from "./components/NavigationBar";
 import Footer from "./components/Footer";
 import PinjamanPage from "./pages/PinjamanPage";
 import LampungOnlinePage from "./pages/LampungOnlinePage";
-import LampungSmartPage from "./pages/LampungSmart";
+import KreditAnekaUsahaPage from "./pages/KreditAnekaUsahaPage";
+import KreditKontraktorPage from "./pages/KreditKontraktorPage";
+import LampungSmartPage from "./pages/LampungSmartPage";
 import QrisPage from "./pages/QrisPage";
 import LampungSavingPage from "./pages/LampungSavingPage";
 import SimpedaPage from "./pages/SimpedaPage";
@@ -39,6 +56,19 @@ import GiroPeroranganPage from "./pages/GiroPeroranganPage";
 import GiroSwastaPage from "./pages/GiroSwastaPage";
 import GiroDinasPage from "./pages/GiroDinasPage";
 import DepositoPage from "./pages/DepositoPage";
+import KreditKIKMKLainPage from "./pages/KreditKIKMKLainPage";
+import KiKmkKurPage from "./pages/KiKmkKurPage";
+import KreditResiGudangPage from "./pages/KreditResiGudangPage";
+import KreditPegawaiAktifPage from "./pages/KreditPegawaiAktifPage";
+import KreditPantasPraPensiunPage from "./pages/KreditPantasPraPensiunPage";
+import KreditPantasPensiunPage from "./pages/KreditPantasPensiunPage";
+import KreditSigerDewanPage from "./pages/KreditSigerDewanPage";
+import KreditPeroranganPage from "./pages/KreditPeroranganPage";
+import KreditLinkageProgramPage from "./pages/KreditLinkageProgramPage";
+import KmkKonstruksiDeveloperPage from "./pages/KmkKonstruksiDeveloperPage";
+import KreditUsahaRakyatPage from "./pages/KreditUsahaRakyatPage";
+import RekeningKoranPage from "./pages/RekeningKoranPage";
+import BankGaransiPage from "./pages/BankGaransiPage";
 
 function App() {
   return (
@@ -65,6 +95,54 @@ function App() {
           <Route path={giroSwastaPath} element={<GiroSwastaPage />} />
           <Route path={giroDinasPath} element={<GiroDinasPage />} />
           <Route path={depositoPath} element={<DepositoPage />} />
+          <Route
+            path={kreditAnekaUsahaPath}
+            element={<KreditAnekaUsahaPage />}
+          />
+          <Route
+            path={kreditKontraktorPath}
+            element={<KreditKontraktorPage />}
+          />
+          <Route path={kreditKiKmkPath} element={<KreditKIKMKLainPage />} />
+          <Route path={kmkKiKurPath} element={<KiKmkKurPage />} />
+          <Route
+            path={kreditResiGudangPath}
+            element={<KreditResiGudangPage />}
+          />
+          <Route
+            path={kreditPantasPegawaiAktifPath}
+            element={<KreditPegawaiAktifPage />}
+          />
+          <Route
+            path={kreditPantasPraPensiunPath}
+            element={<KreditPantasPraPensiunPage />}
+          />
+          <Route
+            path={kreditPantasPensiunPath}
+            element={<KreditPantasPensiunPage />}
+          />
+          <Route
+            path={kreditSigerDewanPath}
+            element={<KreditSigerDewanPage />}
+          />
+          <Route
+            path={kreditPeroranganPath}
+            element={<KreditPeroranganPage />}
+          />
+          <Route
+            path={kreditLinkageProgramPath}
+            element={<KreditLinkageProgramPage />}
+          />
+          <Route
+            path={kmkKonstruksiDeveloperPath}
+            element={<KmkKonstruksiDeveloperPage />}
+          />
+          <Route
+            path={kreditUsahaRakyatPath}
+            element={<KreditUsahaRakyatPage />}
+          />
+          <Route path={rekeningKoranPath} element={<RekeningKoranPage />} />
+          <Route path={bankGaransiPath} element={<BankGaransiPage />} />
         </Routes>
         <Footer />
       </main>

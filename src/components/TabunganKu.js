@@ -9,7 +9,7 @@ function TabunganKu() {
         perorangan dengan persyaratan mudah dan ringan.
       </p>
       <div className="tabunganku-container_company-logo">
-        <img src={tabunganku} alt="Logo TabunganKu" width="500px" />
+        <img src={tabunganku} alt="Logo TabunganKu" width="400px" />
       </div>
       <div className="tabunganku-container_detail">
         <div className="tabunganku-container_detail-feature">

@@ -40,9 +40,17 @@ svg {
 
 .title {
   font-size: 3rem;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 1;
   letter-spacing: 4px;
+  color: #fff;
+}
+
+.btn-primary a{
+  color: #fff;
+}
+
+.btn-primary a:hover{
   color: #fff;
 }
 
@@ -92,6 +100,76 @@ svg {
 .text-reset:hover {
   color: #28317e !important;
 }
+
+
+/* =================================================== */
+/* =================================================== */
+
+.home-container {
+  margin: 60px 50px;
+  /* background-image: linear-gradient(to bottom, rgba(246, 241, 241, 1), rgba(25, 167, 206, 0.3)); */
+}
+
+.home-container_item {
+  display: flex;
+  margin: 150px 0;
+}
+
+.home-container_item-image {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-container_item-image img {
+  width: 80%;
+  border-radius: 20px;
+}
+
+.home-container_item:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.home-container_item-text {
+  margin: auto 50px;
+  width: 50%;
+  color: var(--main-color-4);
+}
+
+.home-container_item-text h4 {
+  color: #28317e;
+}
+
+
+.home-container_item-text p {
+  text-align: justify;
+}
+
+/* =================================================== */
+/* =================================================== */
+
+.product-container {
+  margin: 100px 50px 50px 50px;
+}
+
+.product-container_title {
+  margin-bottom: 30px;
+}
+
+.product-container_title h3 {
+  color: #28317e;
+}
+
+.product-container_title h3,h5{
+  text-align: center;
+}
+
+.g-4 {
+  justify-content: center;
+  align-items: center;
+}
+
 
 /* =================================================== */
 /* =================================================== */
@@ -151,6 +229,7 @@ svg {
 
 .about-container_company-text p {
   font-size: 16px;
+  text-align: justify;
 }
 
 .about-container_duty {
@@ -168,6 +247,14 @@ svg {
   margin-bottom: 20px;
 }
 
+.about-container_duty-vission h5 {
+  text-align: left;
+}
+
+.about-container_duty-mission h5 {
+  text-align: left;
+}
+
 .about-container_value {
   width: 50%;
   border-left: 1px solid rgba(0, 0, 0, 0.1);
@@ -181,11 +268,41 @@ svg {
   margin: 100px 50px 50px 50px;
 }
 
+.pinjaman-container-title {
+  text-align: justify;
+}
+
+.pinjaman-container-title h3 {
+  color: #28317e;
+  font-weight: 600;
+  text-align: center;
+}
+
+.pinjaman-container h5 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
 /* =================================================== */
 /* =================================================== */
 
 .dana-container {
   margin: 100px 50px 50px 50px;
+}
+
+.dana-container-title {
+  text-align: justify;
+}
+
+.dana-container-title h3 {
+  color: #28317e;
+  font-weight: 600;
+  text-align: center;
+}
+
+.dana-container h5 {
+  margin-top: 50px;
+  margin-bottom: 20px;
 }
 
 /* =================================================== */
@@ -194,6 +311,24 @@ svg {
 .layanan-container {
   margin: 100px 50px 50px 50px;
 }
+
+.layanan-container-title {
+  text-align: justify;
+}
+
+.layanan-container-title h3 {
+  color: #28317e;
+  font-weight: 600;
+  text-align: center;
+}
+
+.layanan-container h5 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+/* =================================================== */
+/* =================================================== */
 
 .value-container {
   display: flex;
@@ -258,6 +393,7 @@ svg {
 .value-text-top h5 {
   padding-bottom: 2px;
   color: #28317e;
+  text-align: left;
 }
 
 .about-container-structure {
@@ -274,11 +410,22 @@ svg {
   border-radius: 10px;
 }
 
+.div-structure h4 {
+  font-weight: bold;
+}
+
+.card > img {
+  aspect-ratio: 1.5;
+}
 /* =================================================== */
 /* =================================================== */
 
 .contact-container {
   margin: 100px 50px 50px 50px;
+}
+
+.contact-container h5 {
+  color: #28317e;
 }
 
 .contact iframe {
@@ -302,6 +449,10 @@ svg {
   gap: 15px;
   margin: 10px 0;
   padding: 20px;
+}
+
+.contact-item h5 {
+  text-align: left;
 }
 
 .contact-item_icon {
@@ -339,10 +490,11 @@ svg {
 
 .card-text {
   overflow: hidden;
-   text-overflow: ellipsis;
-   display: -webkit-box;
-   -webkit-line-clamp: 3; 
-   -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  text-align: left;
 }
 
 /* ================================================= */
@@ -651,9 +803,239 @@ svg {
 
 /* ================================================= */
 /* ================================================= */
-@media screen and (max-width: 575px) {
+
+.pinjaman-item-container {
+  margin: 100px 50px 50px 50px;
+}
+
+.pinjaman-item-container h3 {
+  text-align: center;
+  font-size: 32px;
+  margin: 20px 0;
+  color: #28317e;
+}
+
+.pinjaman-item-container > p {
+  text-align: center;
+}
+
+.pinjaman-item_logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+
+.pinjaman-item_detail {
+  margin-top: 50px;
+}
+
+.pinjaman-item_detail-konstruksi > p {
+  margin-top: 15px !important;
+}
+
+.pinjaman-item_detail-information h4,
+.pinjaman-item_detail-benefit h4,
+.pinjaman-item_detail-requirement h4,
+.pinjaman-item_detail-konstruksi h4 {
+  color: #28317e;
+  margin-top: 20px;
+}
+
+.pinjaman-item_detail-requirement > ol > li {
+  margin-top: 15px !important;
+}
+
+/* ================================================= */
+/* ================================================= */
+.info-footer {
+  margin-top: 25px;
+}
+
+.info-footer h6{
+  color: #28317e;
+}
+
+.desk-footer p{
+  text-align: left;
+} 
+
+/* ================================================= */
+/* ================================================= */
+
+@media screen and (max-width: 576px) {
+  .home-container {
+    margin: 50px 20px;
+  }
+
+  .home-container_item {
+    margin: 50px 10px !important;
+  }
+
+  .home-container_item-image img {
+    width: 250px;
+  }
+
+  .home-container_item-text {
+    font-size: 14px;
+    margin: 0 10px;
+  }
+
+  .home-container_item-text h4 {
+    font-size: 28px;
+  }
+
+  .about-container_duty {
+    flex-wrap: wrap;
+  }
+
+  .about-container_duty-vismis {
+    width: 100%;
+    border: none;
+    padding: 0;
+  }
+
+  .about-container_duty-vission p{
+    text-align: justify;
+  }
+
+  .about-container_duty-mission li{
+    text-align: justify;
+  }
+
+  .about-container_value {
+    width: 100%;
+    border: none;
+    margin-top: 20px;
+  }
+
+  .value-container p{
+    text-align: justify;
+  }
+  
   .contact-box {
     justify-content: flex-start;
   }
+
+  .desk-footer p{
+    text-align: center;
+  } 
+
+  .css-1vs3jbz:last-of-type {
+    font-size: small;
+  }
+
+  .div-structure h4{
+    font-size: medium;
+  }
+
+  .div-structure p{
+    font-size: small;
+  }
+
 }
 
+/* ================================================= */
+@media screen and (max-width: 768px) {
+  .home-container {
+    margin: 50px 30px;
+  }
+
+  .home-container_item {
+    margin: 90px 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .home-container_item-image {
+    margin-bottom: 50px;
+  }
+
+  .home-container_item-image img {
+    width: 350px;
+  }
+
+  .home-container_item-text {
+    width: 100%;
+  }
+
+  .home-container_item-text h4 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .home-container_item-text p {
+    text-align: justify;
+  }
+
+  .contact-box {
+    justify-content: flex-start;
+  }
+
+  .desk-footer p{
+    text-align: center;
+  } 
+
+  .about-container_company {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+
+  .about-container h4 {
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  .about-container_company-logo {
+    margin: auto;
+    width: 100%;
+  }
+
+  .about-container_company-logo img {
+    width: 320px;
+  }
+
+  .about-container_company-text {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .about-container_duty {
+    flex-wrap: wrap;
+  }
+
+  .about-container_duty-vismis {
+    width: 100%;
+    border: none;
+    padding: 0;
+  }
+
+  .about-container_duty-vission p{
+    text-align: justify;
+  }
+
+  .about-container_duty-mission li{
+    text-align: justify;
+  }
+
+  .about-container_value {
+    width: 100%;
+    border: none;
+    margin-top: 20px;
+  }
+
+  .value-container p{
+    text-align: justify;
+  }
+
+  .about-container-structure {
+    margin: 90px 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+}

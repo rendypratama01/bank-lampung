@@ -6,7 +6,7 @@ import qlau from "../assets/img/pinjaman/qlau.jpg";
 
 function Layanan() {
   return (
-    <Row xs={1} md={4} className="g-4">
+    <Row xs={1} sm={2} md={3} lg={4}  className="g-4">
       <Col>
         <Card>
           <Card.Img variant="top" src={lonline} alt="L Smart" />
@@ -46,7 +46,7 @@ function Layanan() {
             <Card.Title>
               <Card.Link href={qrisPath}>QRIS</Card.Link>
             </Card.Title>
-            <Card.Text className="card-text">
+            <Card.Text>
               Aplikasi QRIS adalah aplikasi milik PT Bank Pembangunan Daerah
               Lampung (“Bank Lampung”) yang diperuntukkan bagi Merchant untuk
               mengelola transaksi pembayaran dari Pelanggan Merchant (“Pelanggan

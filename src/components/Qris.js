@@ -12,7 +12,7 @@ function Qris() {
         Nasional QR Code Pembayaran.
       </p>
       <div className="qris-container_company-logo">
-        <img src={qlau} alt="Logo Qris" width="500px" />
+        <img src={qlau} alt="Logo Qris" width="400px" />
       </div>
       <div className="qris-container_detail">
         <div className="qris-container_detail-feature">

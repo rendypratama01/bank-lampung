@@ -10,27 +10,33 @@ function LampungOnline() {
         finansial maupun non finansial.
       </p>
       <div className="lonline-container_company-logo">
-          <img src={lonline} alt="Logo Lampung Online" width="500px" />
-        </div>
+        <img src={lonline} alt="Logo Lampung Online" width="400px" />
+      </div>
       <div className="lonline-container_detail">
         <div className="lonline-container_detail-feature">
           <div>
             <h4>Fitur dan Fasilitas</h4>
             <ol>
-            <li>Informasi Rekening</li>
-            <li>Transfer antar sesama Bank Lampung/Bank Lain</li>
-            <li>Beli/Bayar :</li>
-            <ul type="disc">
+              <li>Informasi Rekening</li>
+              <li>Transfer antar sesama Bank Lampung/Bank Lain</li>
+              <li>Beli/Bayar :</li>
+              <ul type="disc">
                 <li>Isi ulang pulsa</li>
                 <li>Isi Ulang Paket Data Internet </li>
                 <li>Pasca Bayar</li>
                 <li>Pembayaran E-Samsat (Pajak Kendaraan Bermotor)</li>
                 <li>Pembayaran PBB (Pajak Bumi dan Bangunan)</li>
-                <li>Pembayaran BPHTB (Bea Perolehan Hak atas Tanah dan Bangunan)</li>
-                <li>Pembayaran Pajak Daerah Lainnya (Pajak Air Tanah, Pajak Hotel, Pajak Restaurant, Pajak Hiburan, Pajak Reklame, Pajak Retribusi, Parkir, Pajak Mineral dan Pajak Penerangan Jalan)</li>
+                <li>
+                  Pembayaran BPHTB (Bea Perolehan Hak atas Tanah dan Bangunan)
+                </li>
+                <li>
+                  Pembayaran Pajak Daerah Lainnya (Pajak Air Tanah, Pajak Hotel,
+                  Pajak Restaurant, Pajak Hiburan, Pajak Reklame, Pajak
+                  Retribusi, Parkir, Pajak Mineral dan Pajak Penerangan Jalan)
+                </li>
                 <li>Pembelian Token Listrik PLN</li>
-            </ul>
-          </ol>
+              </ul>
+            </ol>
           </div>
         </div>
         <div className="lonline-container_detail-requirement">
