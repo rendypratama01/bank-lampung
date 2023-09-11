@@ -40,7 +40,6 @@ import {
   bankGaransiPath,
 } from "./routes";
 import { Route, Routes } from "react-router-dom";
-import NavigationBar from "./components/NavigationBar";
 import Footer from "./components/Footer";
 import PinjamanPage from "./pages/PinjamanPage";
 import LampungOnlinePage from "./pages/LampungOnlinePage";
@@ -69,12 +68,13 @@ import KmkKonstruksiDeveloperPage from "./pages/KmkKonstruksiDeveloperPage";
 import KreditUsahaRakyatPage from "./pages/KreditUsahaRakyatPage";
 import RekeningKoranPage from "./pages/RekeningKoranPage";
 import BankGaransiPage from "./pages/BankGaransiPage";
+import AppHeader from "./components/AppHeader";
 
 function App() {
   return (
     <div className="app">
       <main>
-        <NavigationBar />
+        <AppHeader />
         <Routes>
           {[rootPath, homePath].map((path, index) => (
             <Route path={path} element={<HomePage />} key={index} />
