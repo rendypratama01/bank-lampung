@@ -225,6 +225,30 @@ h5 {
 /* =================================================== */
 /* =================================================== */
 
+.berita-container {
+  margin: 100px 50px 50px 50px;
+}
+
+.berita-container_title {
+  margin-bottom: 30px;
+}
+
+.berita-container_title h3 {
+  color: #28317e;
+}
+
+.berita-container_title h3 {
+  text-align: center;
+}
+
+.g-4 {
+  justify-content: center;
+  align-items: center;
+}
+
+/* =================================================== */
+/* =================================================== */
+
 .about-container {
   margin: 100px 50px 50px 50px;
 }
@@ -310,6 +334,62 @@ h5 {
   width: 50%;
   border-left: 1px solid rgba(0, 0, 0, 0.1);
   padding: 10px 30px;
+}
+
+
+/* =================================================== */
+/* =================================================== */
+
+.Berita-container {
+  margin: 100px 50px 50px 50px;
+}
+
+.Berita-container-title {
+  text-align: justify;
+}
+
+.Berita-container-title h3 {
+  color: #28317e;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+/* =================================================== */
+/* =================================================== */
+
+.berita-page-container {
+  margin: 100px 50px 50px 50px;
+}
+
+.berita-page-container h3 {
+  font-size: 32px;
+  margin: 0px 350px 20px;
+  color: #28317e;
+}
+
+.berita-page-container h6 {
+  margin: 0px 350px 20px ;
+  font-weight: 400;
+}
+
+.berita-container_company-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.berita-container_detail {
+  margin-top: 50px;
+}
+
+.berita-container_detail-content {
+  margin: 50px 350px;
+}
+
+.lsmart-container_detail-feature h4,
+.lsmart-container_detail-requirement h4 {
+  color: #28317e;
 }
 
 /* =================================================== */

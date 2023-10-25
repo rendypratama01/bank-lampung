@@ -4,10 +4,13 @@ export const aboutPath = "/tentang";
 export const layananPath = "/layanan";
 export const danaPath = "/dana";
 export const pinjamanPath = "/pinjaman";
+export const beritaPath = "/berita";
 export const contactPath = "/kontak";
+
 export const lampungOnlinePath = "/layanan/lonline";
 export const lampungSmartPath = "/layanan/lsmart";
 export const qrisPath = "/layanan/qris";
+
 export const lampungSavingPath = "/dana/lsaving";
 export const simpedaPath = "/dana/simpeda";
 export const tabunganKuPath = "/dana/tabunganku";
@@ -33,3 +36,11 @@ export const kmkKonstruksiDeveloperPath = "/pinjaman/kmk-konstruksi-developer";
 export const kreditUsahaRakyatPath = "/pinjaman/kredit-usaha-rakyat";
 export const rekeningKoranPath = "/pinjaman/rekening-koran";
 export const bankGaransiPath = "/pinjaman/bank-garansi";
+
+export const berita7Path = "/berita/update-l-online-bi-fast";
+export const berita6Path = "/berita/hari-indonesia-menabung";
+export const berita5Path = "/berita/promo-merdeka-17-qris-bank-lampung";
+export const berita4Path = "/berita/promo-merdeka-voucher-belanja-chandra";
+export const berita3Path = "/berita/promo-pembukaan-qris-rp-0-rupiah";
+export const berita2Path = "/berita/undian-simpeda-18-juli-2023";
+export const berita1Path = "/berita/waspada-penipuan-mengatasnamakan-bank-lampung";

@@ -24,7 +24,7 @@ function PinjamanPage() {
         </div>
       </div>
       <div>
-        <h5>List Product Pinjaman</h5>
+        <h5>List Product Layanan</h5>
         <Pinjaman />
       </div>
     </div>

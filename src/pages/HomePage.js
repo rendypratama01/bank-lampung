@@ -1,7 +1,7 @@
 import Hero from "../components/Hero";
 import Product from "../components/Product";
 import Section from "../components/Section";
-
+import BeritaHome from "../components/BeritaHome"
 function HomePage() {
   return (
     <div>
@@ -15,6 +15,10 @@ function HomePage() {
 
       <div>
         <Product/>
+      </div>
+
+      <div>
+        <BeritaHome/>
       </div>
     </div>
   );
