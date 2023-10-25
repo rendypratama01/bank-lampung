@@ -5,6 +5,7 @@ import {
   contactPath,
   danaPath,
   homePath,
+  beritaPath,
   layananPath,
   pinjamanPath,
   rootPath,
@@ -65,6 +66,10 @@ const Navigation = React.forwardRef(({ showNavbar, hideNavbar }, ref) => {
                 </NavLink>
               </NavDropdown.Item>
             </NavDropdown>
+
+            <NavLink to={beritaPath} onClick={hideNavbar}>
+              Berita
+            </NavLink>
 
             <NavLink to={contactPath} onClick={hideNavbar}>
               Kontak
